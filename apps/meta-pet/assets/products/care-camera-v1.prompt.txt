@@ -1,0 +1,5 @@
+Built-in image_gen tool. New generation. transparent_background: true.
+
+Use case: product-mockup. Asset type: transparent square product image for Meta Pet mobile app concept shop. Create an isolated premium studio catalog product shot of a compact friendly indoor pet care camera: rounded pebble-shaped matte warm ivory body, circular glossy graphite camera lens in soft black faceplate, tiny vivid electric Meta-blue status ring, subtle blue accent base, very restrained lavender reflection, physically plausible crafted consumer hardware. Three-quarter front view at eye level. Whole product fully visible and fills about 75% of square canvas. Soft high-end studio lighting and subtle grounding shadow. Truly transparent background with actual alpha. Family style: modern calm approachable Meta Pet accessory, white/ivory and electric blue #0866FF, premium photoreal 3D product rendering, not illustration or cartoon. No text, no logos, no watermark, no surrounding props, no pet, no UI, no claims. One camera only.
+
+Generated source: C:\Users\Neo\.codex\generated_images\01a19b01-b8c0-7af3-a0af-fb5c5b0ee5e5\exec-d26fd2ea-88b9-444c-ba74-3afdcc8e794b.png

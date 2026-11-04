@@ -1,0 +1,13 @@
+{
+  "asset": "muse-original-slideshow.mp3",
+  "purpose": "Original background instrumental for owner-created Meta Pet photo slideshows",
+  "createdOn": "2026-11-04",
+  "composition": "Original procedural instrumental composed for this project, using locally synthesized pad, pluck and bass tones. No stock audio, downloaded recording, voice or sampled song was used.",
+  "sourceStemSha256": "c66ca938d634b0f7efdfbc9810d6ceb79880db33b662040e107edda39d72d6df",
+  "derivation": "First 48 seconds of the original 180-second composition, preserving its intro fade and adding a 2.5-second outro fade; encoded as MP3 at 96 kbps.",
+  "decodedDurationSeconds": 48,
+  "sampleRate": 48000,
+  "channels": 2,
+  "sha256": "77cab6a006a0bcfce2ec16d0df7d8fe4c2e8524db936305feb39f4785068daac",
+  "playback": "Preview starts only after the owner presses Play. Video export uses this same bundled audio asset."
+}

@@ -1,0 +1,53 @@
+{
+  "output": "../bark.wav",
+  "source": {
+    "title": "dogbark.wav",
+    "creator": "ipears1",
+    "sourceUrl": "https://freesound.org/people/ipears1/sounds/118072/",
+    "downloadUrl": "https://cdn.freesound.org/previews/118/118072_951673-hq.mp3",
+    "downloadKind": "Publicly linked high-quality MP3 preview; original WAV download requires login and was not used.",
+    "description": "This is my neighbors Boston terrier barking at me",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseVerifiedAt": "2026-10-25",
+    "primaryPageOriginalFormat": {
+      "durationSeconds": 1.066,
+      "sampleRate": 48000,
+      "bitsPerSample": 24,
+      "channels": 2
+    },
+    "rawFile": "dog-118072-preview-raw.mp3",
+    "rawBytes": 20544,
+    "rawSha256": "f953ce735d079f5de013ffdc4fa30bbd7677a8f1035a4c3e47d505128f3959f7",
+    "isRealRecording": true,
+    "isSynthesized": false
+  },
+  "processing": {
+    "sourceClipStartSeconds": 0.3,
+    "sourceClipEndSeconds": 0.555,
+    "selection": "First individual bark from the recording; excludes the second bark.",
+    "decoder": "miniaudio 1.71",
+    "resampling": "Decoded/downmixed to mono at 22050 Hz by miniaudio.",
+    "fadeInSeconds": 0.01,
+    "fadeOutSeconds": 0.025,
+    "fadeShape": "Squared sine/cosine raised-cosine fades.",
+    "dcRemoval": "Subtract clip sum divided by sum of a zero-ended squared-sine weight, multiplied by that weight.",
+    "normalizationPeak": 0.68,
+    "leadingSilenceSeconds": 0.06,
+    "trailingSilenceSeconds": 0.2,
+    "otherEdits": "No synthesized animal audio or added sound; source recording only."
+  },
+  "outputFormat": {
+    "encoding": "PCM signed 16-bit little-endian",
+    "channels": 1,
+    "sampleRate": 22050,
+    "frames": 11356,
+    "durationSeconds": 0.5150113378684807,
+    "bytes": 22756,
+    "peak": 0.67999267578125,
+    "mean": 3.493558608885171e-08,
+    "rms": 0.11831858320566775,
+    "sha256": "b45adc38b36c28f6171361904554e9fc585f77d631464882a64627485b10cd8f"
+  },
+  "attribution": "dogbark.wav by ipears1 on Freesound, CC0 1.0. Trimmed, downmixed, resampled, faded and normalized for Muse Pet."
+}

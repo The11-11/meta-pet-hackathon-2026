@@ -1,0 +1,1057 @@
+{
+  "verifiedOn": "2026-11-03",
+  "status": "325 tests, TypeScript and lint passed; updated demo READY and disabled WhatsApp settings browser-verified. Real WhatsApp pairing/delivery and physical-device checks remain pending.",
+  "checks": {
+    "checkedOn": "2026-11-03",
+    "combinedTestsPassed": 325,
+    "combinedTestsFailed": 0,
+    "typescript": "passed",
+    "eslint": "passed",
+    "staticWebExport": {
+      "passed": true,
+      "expo": "57.0.31",
+      "publicFiles": 56,
+      "auditedLocalFiles": 75,
+      "privateFiles": 0,
+      "knownPrivateCredentialMatches": 0,
+      "entry": "_expo/static/js/web/entry-25ad6fd9c6a1675fa4dde347a48166a7.js"
+    },
+    "publicHttpBoundary": {
+      "healthAndConfig": "HTTP 200; live mode, authentication required, Facebook available and exact public callback configured",
+      "anonymousAndForgedRequests": "Anonymous chat/check/avatar/memory/location rejected with 401; forged bearer/owner requests also rejected with 401",
+      "cacheAndCookies": "Private/no-store API and CDN policy; checked responses MISS/DYNAMIC with no Age or Set-Cookie",
+      "publicAssets": "Ionicons returned 200 font/ttf, 389724 bytes, matching exported asset hash",
+      "headers": "Existing security headers preserved; no wildcard CORS"
+    }
+  },
+  "notYetVerifiedOrConnected": [
+    "Actual accepted-participant entry fields, source/build/video limits and submission confirmation",
+    "Independent tester completion; T invitation remains pending acceptance",
+    "Unrestricted Facebook reviewer access; Meta app remains unpublished, with business verification incomplete and Publish disabled",
+    "Actual local Keep the existing local pet profile transfer and cross-device profile synchronization",
+    "Physical Android/iPhone installation, notifications, camera behavior and Facebook deep links",
+    "Persistent unattended hosting and multi-instance memory storage",
+    "Public avatar generation from a permissioned real pet photo; public sample-artwork test passed separately",
+    "Connected collar hardware, sensor/audio streams, real commerce, social publishing and WhatsApp delivery"
+  ],
+  "artwork": {
+    "method": "Built-in image generation, then sprite extraction for app animation",
+    "body": "assets/muse-dog-body.png",
+    "paw": "assets/muse-dog-paw.png",
+    "prompt": "assets/muse-dog-wave-prompt.txt",
+    "currentMascot": "Kai; assets/kai-plush-body.png and assets/kai-plush-paw.png"
+  },
+  "branding": {
+    "name": "Meta Pet",
+    "typescript": "passed",
+    "eslint": "passed with zero warnings",
+    "verifiedOn": "2026-10-25",
+    "dogRetained": true,
+    "allNineRoutesShowOneHeader": true,
+    "androidBundle": "passed",
+    "source": "Original blue mark retained; native Meta Pet wordmark distinguishes app from Muse Pet companion"
+  },
+  "appearance": {
+    "settingsModeSelection": "passed",
+    "verifiedOn": "2026-10-22",
+    "physicalDevice": "not tested",
+    "eslint": "passed with zero warnings",
+    "nightPreferenceSurvivesReload": "passed",
+    "accessibleSelectedState": "passed",
+    "systemSelection": "passed using device day mode",
+    "textAndBackgroundNightColours": "passed in rendered chat field",
+    "androidBundle": "passed",
+    "manualSwitch": "passed",
+    "typescript": "passed",
+    "modes": [
+      "day",
+      "night",
+      "system"
+    ],
+    "nightPages": "All nine routes verified with saved night appearance after clean preview restart"
+  },
+  "museHarness": {
+    "verifiedOn": "2026-10-22",
+    "backendAndMobileTests": "23 passed, 0 failed",
+    "typescript": "passed",
+    "eslint": "passed with zero warnings",
+    "browserApproval": "Dismiss left 0 records; approve created 1 record; reload retained exactly 1 record",
+    "browserConnectionCheck": "Confirmed demo mode and missing server API key",
+    "browserApiContext": "Connected API response reflected 1 saved walk record",
+    "liveMetaInference": "not yet tested; private MODEL_API_KEY is blank",
+    "model": "muse-spark-1.3",
+    "actionTools": [
+      "prepare_care_entry",
+      "prepare_appointment"
+    ],
+    "execution": "Explicit owner approval saves local device records; no external task execution",
+    "screenshot": "../muse-harness-approved.png",
+    "privateConfiguration": "backend/.env generated and gitignored; no credentials included in this report",
+    "androidHermesBundle": "passed; dist/muse-harness; physical phone not yet tested",
+    "preview": "http://localhost:8083/muse; isolated test origin; local guide selected until credentials are configured"
+  },
+  "kaiAndConversation": {
+    "verifiedOn": "2026-10-23",
+    "mascot": "Approved female Kai plush body/paw layers integrated with tap and automatic wave; original Muse assets preserved",
+    "typescript": "passed",
+    "eslint": "passed with zero warnings",
+    "androidHermesBundle": "passed; dist/muse-kai",
+    "backendAndMobileTests": "34 passed, 0 failed",
+    "browserChecks": [
+      "Kai rendered on Muse and Care screens",
+      "Pending suggestion and conversation survived reload without approval",
+      "Approved decision survived reload with no approval button",
+      "Dismissed suggestion survived reload with no extra care record",
+      "Exactly one care entry was added today; earlier saved care history was retained"
+    ],
+    "retainedConversation": "Up to 40 messages and 40000 content characters on the device",
+    "contextBudget": "60 KiB UTF-8 with care records preserved locally",
+    "liveMetaInference": "Not tested; server key still blank at latest check",
+    "screenshot": "../muse-kai-app-preview.png",
+    "physicalDevice": "not tested",
+    "nightPalette": "Kai verified visually in both day and night palettes",
+    "reviewDecisionScreenshot": "../muse-saved-conversation.png",
+    "nightScreenshot": "../muse-kai-app-night.png"
+  },
+  "facebookOnboarding": {
+    "verifiedOn": "2026-10-24",
+    "flow": [
+      "Welcome",
+      "Facebook sign-in or explicit demo",
+      "Pet profile",
+      "Photo and custom Muse avatar",
+      "Care goals",
+      "Review",
+      "Dashboard"
+    ],
+    "browserViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "passed": [
+      "Unconfigured Facebook login shows a setup message without signing in",
+      "Signed-out deep link to Muse returns to welcome",
+      "Pet name and at least one goal are required",
+      "Back navigation preserves drafts",
+      "Review shows the selected profile and goals with no collar connected",
+      "Final setup saves before opening dashboard",
+      "Completed setup and selected care goals survive reload",
+      "Demo sign-out returns to welcome",
+      "Re-entering demo restores Kai without repeating setup",
+      "Facebook callback cancellation remains signed out with a return action",
+      "Day and night signup palettes render"
+    ],
+    "automatedEvidence": [
+      "Real Better Auth signed-session and SQLite restart fixtures",
+      "Forged, revoked and absent sessions rejected",
+      "X-Muse-Owner prevents switched browser cookies authorizing another owner payload",
+      "Session cookies limited to configured auth server",
+      "Separate Facebook-owner and demo data buckets",
+      "Blank new account records and validated final setup"
+    ],
+    "screenshots": [
+      "../muse-facebook-signup.png",
+      "../muse-signup-review-night.png"
+    ],
+    "androidBundle": "dist/facebook-onboarding/_expo/static/js/android/entry-1fd022986ca12cafbfb68c1031558325.hbc",
+    "remaining": [
+      "Configure Meta App ID and App Secret privately",
+      "Register the backend Facebook callback and initialize the local auth schema",
+      "Owner-driven real Facebook login",
+      "Physical Android/iOS deep-link round trip"
+    ]
+  },
+  "liveMuseAndAvatar": {
+    "verifiedOn": "2026-10-25",
+    "model": "muse-spark-1.3",
+    "avatarModel": "muse-image-1.0",
+    "passed": [
+      "Private server key verified without pet records",
+      "Live connection test succeeded inside app Settings",
+      "Actual Kai reference photo selected through browser file picker and normalized",
+      "Meta generated a real PNG avatar from that photo",
+      "Owner chose Use this avatar; portrait appeared on the pet profile",
+      "Avatar persisted after reopening the app",
+      "Live Muse reply used Kai profile and acknowledged empty care notes",
+      "Avatar pixels excluded from ordinary text-chat requests",
+      "Four-step onboarding photo preview, back navigation, optional skip and review verified at390px",
+      "Day and night avatar steps render",
+      "Unsigned avatar request displays sign-in guidance without fabricating an image"
+    ],
+    "screenshots": [
+      "../muse-pet-photo-step.png",
+      "../kai-muse-saved-profile.png",
+      "../muse-live-reply.png"
+    ],
+    "avatarArtifact": "../kai-muse-live-avatar.png",
+    "pending": [
+      "Real Facebook sign-in still needs separate Meta app credentials",
+      "Native camera permissions and physical Android/iPhone flow have not been tested"
+    ],
+    "privateData": "Model API key remains server-side; local development token is memory-only in the app; no source photo is persisted with the care profile."
+  },
+  "petCareAlerts": {
+    "verifiedOn": "2026-10-25",
+    "sounds": [
+      "Bark: approved real CC0 Boston-terrier recording, unchanged",
+      "Meow: approved tuberatanka real CC0 cat recording, meow_v2.wav",
+      "Default phone sound",
+      "Quiet"
+    ],
+    "provenance": "assets/sounds/README.md and assets/sounds/source/*-source.json",
+    "automated": "98 tests passed including preferences, reminder synchronization, account-change cancellation, native permission/channel scheduling, legacy cat-channel migration and WAV validation",
+    "browser": [
+      "Real recordings loaded in Settings and playback completion reported",
+      "Quiet disables Listen",
+      "Default explains device tone",
+      "In-app test shows preview only",
+      "Bark selection restored after reload"
+    ],
+    "native": "SDK57 audio and notification plugins configured; Android Hermes export passed with both real WAV assets",
+    "pending": [
+      "Physical Android/iPhone notification delivery and custom-sound playback",
+      "Fresh signed native build with bundled sounds"
+    ],
+    "scope": "Device-local appointment reminders after explicit permission; no remote push service or Facebook notification sound modification",
+    "catReplacement": {
+      "verifiedOn": "2026-10-25",
+      "ownerFeedback": "Dog is perfect; replacement cat audio approved with \"awesome that works\"",
+      "sound": "assets/sounds/meow_v2.wav",
+      "androidChannel": "muse-meow-v2",
+      "source": "https://freesound.org/people/tuberatanka/sounds/110011/",
+      "dogSha256": "b45adc38b36c28f6171361904554e9fc585f77d631464882a64627485b10cd8f",
+      "dogUnchanged": true
+    }
+  },
+  "socialPages": {
+    "verifiedOn": "2026-10-25",
+    "scope": "Facebook/Instagram device-local page plans and owner-approved drafts, with consented live Meta Muse captions",
+    "autoMention": "Exact saved pet @handle included in every draft and caption edit; handle edits retag local drafts and invalidate old pending proposals",
+    "browserPassed": [
+      "Muse proactively offers social page help",
+      "Page plan saved for proposed handle kai.muse.demo",
+      "Draft action displayed exact pet mention before approval",
+      "Approval saved exactly one local draft",
+      "Caption edit without handle automatically restored mention",
+      "Page plan and draft survived reload",
+      "Mobile390x844 day/night rendered",
+      "Actual Muse Spark1.3 generated a Facebook caption using the selected public bio and exact handle",
+      "Live proposal displayed MUSE LIVE MODEL and required approval",
+      "Approved live caption appeared in Social pages alongside the earlier local starter"
+    ],
+    "checks": "138 tests passed; TypeScript and lint passed; Android Hermes export passed",
+    "modelData": "Owner explicitly approved selected page displayName, handle, bio and platform for requested live drafts on 2026-10-25. URL, intent, other pages, saved drafts, photos, care records, appointments and chat history are excluded. Backend reprojects context and offers only prepare_social_post.",
+    "pending": [
+      "Actual Facebook/Instagram account connection, page creation, platform metadata tagging and publishing",
+      "Physical mobile device verification"
+    ],
+    "screenshots": [
+      "../muse-social-tagged-draft.png",
+      "../muse-social-mobile.png",
+      "../muse-social-mobile-night.png",
+      "../muse-live-social-draft.png"
+    ],
+    "liveModel": "muse-spark-1.3",
+    "consent": "Allow live Muse drafting; explicit owner reply on 2026-10-25"
+  },
+  "museSessionRepair": {
+    "verifiedOn": "2026-10-25",
+    "credential": "Existing private MUSE_CLIENT_TOKEN entered without disclosure; token remains memory-only",
+    "settings": "Test activates the exact address/token used by chat, awaits ordered saving and rejects owner/scope/session changes",
+    "responseBudget": "Low reasoning effort and4096 total output tokens; incomplete responses remain rejected",
+    "latestQuestion": "Informational latest questions omit action tools; historic unapproved tasks are not replayed as current instructions",
+    "diagnostics": "Bounded backend failure diagnoses displayed for non-auth errors",
+    "checks": "148 tests passed, TypeScript and lint passed; Android Hermes export passed",
+    "browser": "Test activated the entered private token without a separate Save; actual live chat completed and answered the latest question without reviving an old appointment task",
+    "screenshot": "../muse-session-key-set.png"
+  },
+  "workspace": {
+    "createdOn": "2026-10-25",
+    "project": "Meta Hackathon",
+    "root": "C:/Users/Neo/Documents/ChatGPT/Meta Hackathon",
+    "canonicalApp": "apps/meta-pet",
+    "identity": {
+      "companion": "Muse Pet",
+      "ecosystem": "Petaverse",
+      "app": "Meta Pet"
+    },
+    "migration": "Whole app moved; legacy directory junction preserves installed dependency and editor paths; private settings moved once and were excluded from source backup",
+    "preserved": "Existing localhost8083 browser owner data, profile, avatar and conversation observed after reload",
+    "checks": "151 tests passed; TypeScript and ESLint passed; canonical package resolution verified",
+    "remaining": "Physical native device and real Facebook OAuth still pending",
+    "compatibilityWorkspace": "C:/Users/Neo/Documents/Codex/Meta-Hackathon",
+    "localProjectId": "3ddfd042-d91c-4dc5-a548-3d68e5b9cb0d",
+    "browser": "Verified after moving to the registered Meta Hackathon project: Meta Pet header, retained Kai profile and conversation, successful live Meta Muse connection check; returned to Muse without reloading the session.",
+    "screenshots": [
+      "../../media/meta-pet-muse-mobile.png",
+      "../../media/meta-pet-muse-night.png"
+    ]
+  },
+  "signupAvatarFlow": {
+    "verifiedOn": "2026-10-26",
+    "preview": "http://localhost:8081/",
+    "scope": "Fresh explicit demo onboarding with an owner-supplied development connection; separate from real Facebook authentication",
+    "checks": {
+      "backendAndClientContractTests": {
+        "passed": 163,
+        "failed": 0
+      },
+      "typescript": "passed",
+      "eslint": "passed with zero warnings",
+      "androidHermesBundle": "passed; dist/signup-avatar-flow"
+    },
+    "implemented": [
+      "Demo-only photo-step connection panel activates and tests Muse before onboarding is complete",
+      "Connection tests send no pet records or photo; the photo is sent only for requested avatar generation",
+      "Profile and avatar saves await ordered persistence, including identical-value retries after a failed write",
+      "Settings reports profile success only after persistence and blocks conflicting actions while saving"
+    ],
+    "browserPassed": [
+      "Fresh demo reaches the inline Muse connection panel in the photo step",
+      "Incorrect development token is rejected",
+      "Correct existing development token activates the connection and Meta Muse provider check responds successfully",
+      "Owner-selected Kai reference photo is uploaded through the app",
+      "Actual Meta image generation returns a brown plush Muse avatar from that photo",
+      "Feeding and Walks goals selected; review shows Kai, Dog and the actual custom avatar",
+      "Start caring completes fresh demo setup and opens the care dashboard",
+      "Reopening retains the Kai profile and selected care goals",
+      "Settings -> Update Muse avatar shows the same actual brown plush generated portrait after reopening"
+    ],
+    "automatedEvidence": [
+      "Failed optimistic avatar write retries the identical portrait and waits for successful persistence",
+      "Concurrent identical writes remain ordered and recover after an earlier failure",
+      "Unchanged profile writes preserve conversation and care records and cannot bypass the persistence guard",
+      "Onboarding connection activation and provider testing retain owner and session checks"
+    ],
+    "pending": [
+      "Real Facebook login: the private App Secret is still missing and the Meta dashboard browser is signed out",
+      "Physical Android/iPhone installation, native camera and deep-link testing"
+    ],
+    "privateData": "Provider key stays server-side. The development connection token stays in app memory and is excluded from saved care records. The original pet photo is not stored with the profile; the compact generated portrait is persisted. No credentials are included in this record.",
+    "screenshot": "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11/meta-pet-saved-avatar.png",
+    "mainPreview": "http://localhost:8083/muse",
+    "mainPreviewConnection": "Existing private development token restored in app memory; Meta Muse provider check succeeded and the main preview was returned to Muse. Fresh onboarding verification used the separate localhost8081 origin."
+  },
+  "petCareMarketplaceAndTeam": {
+    "verifiedOn": "2026-10-28",
+    "scope": "Pet-specific guidance, owner-opened Facebook Marketplace searches and authored Muse specialist modules",
+    "checks": {
+      "backendAndClientContractTests": {
+        "passed": 188,
+        "failed": 0
+      },
+      "typescript": "passed",
+      "eslint": "passed",
+      "androidHermesExport": "passed; dist/pet-care-team"
+    },
+    "team": {
+      "petRoles": 6,
+      "developmentRoles": 10,
+      "sourceAgentRolesPreserved": 8,
+      "execution": "instruction_routing",
+      "providerCallsPerPetReply": 1,
+      "developmentAccess": "Explicit local CLI; read-only advice from supplied context; no repository or computer tools"
+    },
+    "browserPassed": [
+      "Isolated demo onboarding completed with synthetic Muse Demo Dog profile and care goals",
+      "Care needs and preferences saved through Settings and appeared in Muse",
+      "Muse Find pet supplies shortcut opened Shop and prioritized selected care goals",
+      "Marketplace search button reached Facebook search with the controlled product query; Facebook required sign-in",
+      "390x844 mobile supply finder displayed cards, review criteria and unverified-listing labels",
+      "Existing private preview token activated a temporary isolated test backend; Meta connection verified",
+      "Live Meta reply used saved short reward-based training and washable bedding preferences and acknowledged unverified Marketplace listings",
+      "Local project-planning CLI returned live read-only advice with toolsExecuted false",
+      "390x844 supply finder verified in day and night palettes"
+    ],
+    "testIsolation": "Browser test used 127.0.0.1:8083 and temporary local backend 8788 because canonical CORS permits localhost. No production origin rules or private settings changed. Canonical localhost backend 8787 restarted with the new code.",
+    "marketplace": "Controlled species/category search words only. No pet name, care notes, medical needs, exact location or identity in outbound search URLs. No listing retrieval, verified offers, seller contact, payments or Peta Coin purchases.",
+    "screenshots": [
+      "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11/muse-pet-supply-finder.png",
+      "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11/muse-pet-care-live.png",
+      "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11/muse-pet-supplies-night.png"
+    ],
+    "pending": [
+      "Owner-driven Facebook OAuth",
+      "Authorized merchant catalog for verified in-app offers",
+      "Independent multi-agent delegation or background code maintenance",
+      "Physical Android/iPhone testing and native Facebook handoff"
+    ]
+  },
+  "developmentCoordination": {
+    "verifiedOn": "2026-10-28",
+    "execution": "coordinated_model_calls",
+    "workflow": [
+      "planner",
+      "up to three parallel development specialists",
+      "builder in patch mode or synthesis in plan mode",
+      "independent reviewer in patch mode",
+      "explicit local operator approval before apply"
+    ],
+    "scope": "Local development harness; no public development API or pet-chat code privileges",
+    "checks": {
+      "backendAndClientTests": {
+        "passed": 219,
+        "failed": 0,
+        "skipped": 0
+      },
+      "frontendLint": "passed",
+      "frontendTypeScript": "passed"
+    },
+    "limits": {
+      "maxProviderCalls": 6,
+      "maxParallelSpecialists": 3,
+      "overallTimeoutMs": 120000,
+      "perRequestTimeoutMs": 25000,
+      "explicitSourceFiles": 8,
+      "sourceBytesPerFile": 65536,
+      "totalContextBytes": 163840,
+      "maxChangedFiles": 5
+    },
+    "livePlan": {
+      "modelCalls": 4,
+      "status": "plan_only",
+      "specialists": [
+        "build-review",
+        "project-planning"
+      ],
+      "sourceChanged": false,
+      "runDirectory": "backend/data/coordination/2026-10-28T07-20-29-017Z-073003fd-e8d0-40c0-a181-e10733081151"
+    },
+    "livePatch": {
+      "modelCalls": 5,
+      "status": "review_required",
+      "specialists": [
+        "build-review",
+        "independent_hackathon_choice"
+      ],
+      "independentReview": "ready_for_review",
+      "fixtureRoot": "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11/muse-coordination-live-5jXn8T",
+      "change": "Synthetic reminder helper OR corrected to AND",
+      "explicitFixtureApply": "passed",
+      "behaviorChecks": {
+        "passed": 4,
+        "failed": 0
+      },
+      "canonicalFeatureSourceChanged": false
+    },
+    "guards": [
+      "Explicit source path list only; environment, private, authentication, policy, generated, linked and self-modification paths blocked",
+      "Source/context/output/call bounds validated",
+      "Model-provided commands and function calls rejected",
+      "Exact reviewed manifest digest and independent review required for separate explicit apply",
+      "All baseline hashes and new-file absence checked before writes",
+      "Write journal with attempted rollback on failure",
+      "Private run artifacts are under ignored backend/data/coordination"
+    ],
+    "notImplemented": [
+      "Background autonomous maintenance",
+      "Deployment or publication",
+      "Automatic model-generated test commands",
+      "Operating-system execution sandbox",
+      "Automatic source discovery or unrelated repository access"
+    ]
+  },
+  "pageMemoryAndDiscovery": {
+    "verifiedOn": "2026-11-02",
+    "checks": {
+      "combinedTests": {
+        "passed": 254,
+        "failed": 0
+      },
+      "typescript": "passed",
+      "eslint": "passed with zero warnings",
+      "backendRestart": "healthy on localhost:8787; anonymous memory and Facebook locality requests rejected with 401"
+    },
+    "pageMemory": {
+      "path": "backend/data/memory/<sha256-owner-id>/<sha256-pet-id>/memory.md",
+      "identity": "Verified Facebook session plus matching X-Muse-Owner; token-only and guest demo excluded",
+      "retention": "Current owner-provided profile/goals, eight recent owner questions, twenty explicit remembered notes, 500 characters per entry, 16 KiB total UTF-8 file",
+      "boundaries": [
+        "Owner and pet isolation; persistence across store restart",
+        "Current profile and cleared fields take precedence when requests finish out of order",
+        "Clearing invalidates older in-flight writes",
+        "Social drafting neither reads nor writes page memory",
+        "Assistant responses, approvals and credential-like content excluded",
+        "Corrupt, oversized, linked and noncanonical files rejected",
+        "Successful care reply retained with honest memory saved:false if writing fails"
+      ],
+      "browser": "Isolated synthetic Facebook session at 390x844: saved Markdown, two-step clear, failed-clear text retention, recovered reads clear old errors, unreadable reset recovery, guest no memory request, no overflow or page errors",
+      "liveProvider": "Real Meta Muse recalled a fictional pet toy preference after test-server restart with empty submitted chat history. Isolated synthetic owner/store removed afterward; actual Facebook account and pet records were not accessed.",
+      "pending": [
+        "Real owner Facebook round trip and authenticated owner memory remain unverified",
+        "Physical-device behavior and production multi-instance storage remain unverified"
+      ]
+    },
+    "trainerFinder": {
+      "browser": "Manual area, goal matching, synthetic Facebook profile city and Page area, incremental scope request and controlled new-tab search passed",
+      "privacy": "No automatic Facebook locality read; coarse areas are transient and absent from model and care-record payloads; search uses area and controlled trainer-goal words only",
+      "pending": "Actual Facebook optional permission grants and live city/Page import remain unverified. Search results are not verified trainer recommendations."
+    },
+    "productImages": {
+      "generator": "Built-in ImageGen",
+      "assets": [
+        "assets/products/meta-collar-v1.png",
+        "assets/products/care-camera-v1.png",
+        "assets/products/smart-feeder-v1.png"
+      ],
+      "prompts": "Matching .prompt.txt files beside each image",
+      "browser": "All images loaded on shop and product previews; 390x844 day/night and desktop checked without horizontal overflow",
+      "status": "Concept artwork; hardware and commerce remain unconnected"
+    },
+    "evidenceRoot": "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11",
+    "evidence": [
+      "meta-pet-memory-ui-verification.json",
+      "meta-pet-live-memory-verification.json",
+      "meta-pet-memory-night.png",
+      "meta-pet-product-trainer-verification.json",
+      "meta-pet-trainer-facebook-ui-verification.json",
+      "meta-pet-shop-day.png",
+      "meta-pet-shop-night.png"
+    ]
+  },
+  "facebookProfileHandoff": {
+    "verifiedOn": "2026-11-02",
+    "checks": {
+      "combinedTests": {
+        "passed": 269,
+        "failed": 0
+      },
+      "typescript": "passed",
+      "eslint": "passed with zero warnings",
+      "review": "Independent read-only code and React lifecycle review; concrete source/target races fixed"
+    },
+    "implemented": [
+      "Settings Account & memory card and Continue with Facebook",
+      "Explicit reviewed profile/valid avatar/care notes/goals import after exact initiating verified callback",
+      "30-minute invitation, owner binding, source-version checks and scoped dismissal",
+      "Existing account protection, latest empty-account settings preservation and stable target pet ID",
+      "Awaited persistence before publishing success; source edits, account changes, bad data and failed saves rejected"
+    ],
+    "fixtureVerification": "Staging → verified synthetic callback → explicit transaction → private server memory → signed-out 401 → same-owner saved profile + memory returned. Recall payload includes saved note without submitted history. No real account was used for fixtures.",
+    "actualBrowser": {
+      "settings": "New card visible for the existing local pet; profile remained present after both failed provider attempts",
+      "firstAttempt": "Facebook returned Invalid Scopes: email",
+      "fix": "Supported Better Auth disableDefaultScope:true and scope:[public_profile]; synthetic baseline and optional city/Page URL checks exclude email",
+      "secondAttempt": "Facebook Login for Business: app needs at least one supported permission",
+      "dashboard": "Use cases and Add use cases inspected read-only; ordinary Facebook authentication unavailable for this existing app; dashboard instructs creating a separate app when unavailable",
+      "configurationChanged": false,
+      "accountCreated": false,
+      "realFacebookSessionCreated": false,
+      "realKeepChoiceVerified": false,
+      "realSignOutAndReturnVerified": false,
+      "verificationScope": "Earlier localhost attempts below are retained as historical evidence; see publicLiveDemo for the later successful public account round trip."
+    },
+    "remaining": [
+      "Actual local Keep the existing local pet profile transfer remains unverified; public test used a separate synthetic pet",
+      "Native-device and multi-browser/cross-device profile behavior"
+    ],
+    "sourceHistory": "Original22October2026 history retained",
+    "evidenceRoot": "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11",
+    "screenshots": [
+      "meta-pet-account-handoff-settings.png",
+      "facebook-invalid-email-scope.png",
+      "facebook-business-login-blocker.png",
+      "meta-app-available-use-cases.png"
+    ]
+  },
+  "dedicatedFacebookLoginPreparation": {
+    "preparedOn": "2026-11-02",
+    "registeredName": "Petaverse Login",
+    "reason": "Meta creation form rejected Meta Pet because meta is a restricted registered app-name term",
+    "productBrandingUnchanged": true,
+    "useCase": "Authenticate and request data from users with Facebook Login",
+    "businessPortfolio": "Linked in the owner-completed creation flow",
+    "status": "Public Facebook public_profile-only sign-in completed into onboarding; a synthetic pet profile, live Muse reply, private page memory, sign-out protection and same-account return were verified in the same browser and public origin. T tester invitation is pending acceptance. Local Keep the existing local pet migration remains unverified.",
+    "termsAccepted": true,
+    "appCreated": true,
+    "credentialsChanged": true,
+    "authDatabaseChanged": false,
+    "callbackPlanned": "http://localhost:8787/api/auth/callback/facebook",
+    "callbackConfigured": true,
+    "screenshot": "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11/petaverse-login-create-review.png",
+    "termsApprovalReceived": true,
+    "termsApprovalOn": "2026-11-02",
+    "appId": "947230411546979",
+    "callbackAcceptedByOAuth": true,
+    "oauthConsentReached": true,
+    "secretSaveEvidence": "petaverse-login-credentials-saved.png",
+    "realFacebookSessionCreated": true,
+    "publicCallback": "https://petaverse-meta-pet-demo.vercel.app/api/auth/callback/facebook",
+    "publicCallbackConfigured": true,
+    "publicCallbackAcceptedByOAuth": true,
+    "callbackVerifiedOrigin": "https://petaverse-meta-pet-demo.vercel.app",
+    "realSignOutAndReturnVerified": true,
+    "localProfileMigrationVerified": false
+  },
+  "publicGuidedDemo": {
+    "releasedOn": "2026-11-02",
+    "url": "https://petaverse-meta-pet-demo.vercel.app",
+    "projectId": "prj_aVxULISBcMOtZQ4Sry3mmQ73tiFF",
+    "deploymentId": "dpl_Ej53tv6qx8bui4H1HL5Ko5TGSsnj",
+    "state": "READY",
+    "mode": "EXPO_PUBLIC_DEMO_ONLY=true; browser-only deterministic preview guide",
+    "features": [
+      "Muse setup prompts and contextual explanations",
+      "Meal/walk descriptions routed through existing proposed-action review",
+      "Only saved care entries advance the guide",
+      "Next choices for care timeline, supplies, trainers and vet appointments"
+    ],
+    "checks": {
+      "testsPassed": 271,
+      "testsFailed": 0,
+      "typescript": "passed",
+      "eslint": "passed",
+      "export": "Expo57 static export; one worker; private dotenv loading disabled",
+      "uploadedPublicFiles": 56,
+      "privateFiles": 0,
+      "knownPrivateCredentialMatches": 0,
+      "anonymousHttpsRoutes": [
+        "/",
+        "/welcome",
+        "/onboarding",
+        "/muse",
+        "/shop",
+        "/auth/callback"
+      ],
+      "localExportBrowser": "Synthetic Demo pup: four-step setup, Muse help, meal review, explicit Approve and save, then next-step guide; local console errors absent",
+      "hostedBrowser": "Fresh welcome, Let Muse guide me, onboarding Why this step explanation, leave preview back to welcome; no hosting sign-in required",
+      "warning": "Initial hosted icon-font404 identified and fixed by remapping exported vendor assets. Font now returns200(font/ttf); reloaded page renders icons and images, with no new console errors observed.",
+      "vendorAssetFix": "19 Expo vendor assets served from assets/vendor with exact filename rewrites; original node_modules asset paths were not served by the host."
+    },
+    "pending": [
+      "Live Meta model responses on the public host",
+      "Public Facebook callback and account memory",
+      "AI avatar generation on public host",
+      "Native device testing"
+    ],
+    "privacy": "No private backend settings, auth database, owner records or server memory uploaded. Public origin starts separate browser storage. Local installation remains separate.",
+    "evidence": [
+      "meta-pet-public-demo-welcome.png",
+      "meta-pet-public-muse-guide.png",
+      "meta-pet-guided-demo.png"
+    ],
+    "supersededBy": "publicLiveDemo"
+  },
+  "publicLiveDemo": {
+    "verifiedOn": "2026-11-02",
+    "url": "https://petaverse-meta-pet-demo.vercel.app",
+    "projectId": "prj_aVxULISBcMOtZQ4Sry3mmQ73tiFF",
+    "deploymentId": "dpl_55rCHnZFDuhAK4pG2K7ZUujaxvom",
+    "state": "READY",
+    "mode": "Connected frontend; same-origin /api and /health proxy to one supervised local Node24 backend through an approved HTTPS tunnel",
+    "checks": {
+      "testsPassed": 276,
+      "testsFailed": 0,
+      "typescript": "passed",
+      "eslint": "passed",
+      "publicPreflight": "Public health returned live mode and Facebook config available with the exact public callback. These preflights were followed by the real authenticated browser checks below.",
+      "facebookSignIn": "Completed real public_profile-only Facebook consent and returned to Facebook-signed-in onboarding on the public origin.",
+      "petSetup": "Created synthetic Flow test pet, Dog, Walk goal, no custom avatar and zero care records.",
+      "liveMuse": "Actual MUSE · LIVE MODEL reply discussed first-walk planning. No care event was saved by that reply.",
+      "memory": "View Muse page memory showed a real saved profile and question at sequence1.",
+      "signOut": "App sign-out completed; direct /memory navigation redirected to welcome.",
+      "signInReturn": "Same Facebook account returned directly to the same pet care home without setup. Saved server memory showed the original question, sequence1 and unchanged last-updated timestamp2026-11-02T18:53:10.213Z.",
+      "verificationScope": "Same browser and public origin. Profile and care data remain device-local; server memory is separate. No cross-device profile synchronization is claimed."
+    },
+    "testerAccess": {
+      "role": "Tester",
+      "invitationSentWithOwnerApproval": true,
+      "status": "Pending acceptance",
+      "acceptanceVerified": false,
+      "requestsUrl": "https://developers.facebook.com/settings/developer/requests/",
+      "requestsNavigationVerified": "Meta account menu → Go to Developer settings → Requests; owner view inspected only"
+    },
+    "backend": {
+      "authentication": "NODE_ENV=production requires a verified Facebook cookie plus matching owner header for Muse chat/check/avatar. Shared development tokens cannot authorize these production endpoints.",
+      "memoryConfiguration": "MUSE_MEMORY_ROOT can select an absolute non-root directory for isolated public-demo page memory; AUTH_DATABASE_PATH separately selects the private auth database.",
+      "rateLimits": "Verified owners receive separate care/avatar quotas; anonymous fallback uses the actual socket and ignores forwarded IP claims.",
+      "availability": "The computer, backend and temporary HTTPS tunnel must remain running. A changed tunnel address requires updating the Vercel API rewrite; the public app URL stays the same."
+    },
+    "pending": [
+      "T must accept the pending Facebook Tester invitation before their account test can be verified",
+      "Public AI avatar generation remains unverified",
+      "Actual local Keep the existing local pet migration remains unverified",
+      "Native device, cross-browser and cross-device profile behavior remain unverified",
+      "Unattended persistent hosting and production multi-instance storage remain separate work"
+    ],
+    "privacy": "The public test uses a separate synthetic pet. the existing local pet was not copied. Private backend settings and server memory remain server-side and excluded from frontend exports and archives.",
+    "evidenceRoot": "C:/Users/Neo/.codex/visualizations/2026/10/22/01a16289-f52d-7261-a115-a76a22a7db11",
+    "evidence": [
+      "petaverse-tester-invitation-sent.png",
+      "meta-pet-public-live-muse-reply.png",
+      "meta-pet-live-memory-saved.png",
+      "meta-pet-live-memory-restored.png"
+    ],
+    "supersededBy": "finalization20261103"
+  },
+  "preFinalizationTopLevelBaseline": {
+    "verifiedOn": "2026-10-26",
+    "status": "Live Muse care, selected-page social drafting and fresh demo photo-to-avatar generation verified",
+    "checks": {
+      "typescript": "passed",
+      "eslint": "passed with zero warnings",
+      "androidHermesBundle": "passed; dist/signup-avatar-flow",
+      "backendAndClientContractTests": {
+        "passed": 163,
+        "failed": 0
+      },
+      "browserViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "browserFlows": [
+        "Record a feeding note and retain it after reopening",
+        "Reject an invalid calendar date",
+        "Save and retain an appointment with local date and time",
+        "Local Muse guide summarizes the recorded care note",
+        "App sends saved appointment to local backend and displays its demo response",
+        "Unavailable backend produces a visible connection error",
+        "Demo redemption subtracts credits and persists its ledger entry",
+        "Insufficient demo credits disable redemption",
+        "Muse Dog waves a separate paw layer automatically and on tap",
+        "Care screen has no horizontal overflow at 390 pixels"
+      ],
+      "waveEvidence": {
+        "beforeTransform": "matrix(0.973482, -0.228765, 0.228765, 0.973482, 0, 0)",
+        "afterTransform": "matrix(0.971968, 0.235111, -0.235111, 0.971968, 0, 0)",
+        "scope": "Rendered paw layer, read from the browser during the same greeting"
+      }
+    },
+    "notYetVerifiedOrConnected": [
+      "Real Facebook OAuth with a configured Meta app and owner-driven login",
+      "Physical Android or iPhone installation",
+      "APK signing, cloud build or app-store submission",
+      "Collar hardware, audio, location or physiological measurements",
+      "Social publishing, real purchases, cryptocurrency or Facebook Marketplace payments"
+    ]
+  },
+  "currentReleaseKey": "submissionChecklist20261104",
+  "finalization20261103": {
+    "checkedOn": "2026-11-03",
+    "url": "https://petaverse-meta-pet-demo.vercel.app",
+    "projectId": "prj_aVxULISBcMOtZQ4Sry3mmQ73tiFF",
+    "deploymentId": "dpl_BJeuQCSC37q5mh8bnquz4KYMew68",
+    "deploymentState": "READY",
+    "hostedBrowserStatus": "passed",
+    "hostedBrowserDetails": "Browser checks verified the new entry bundle hash in the rendered public deployment. Pasted 131-character guided input stays visible with a 1–120-character validation message and Review disabled; a 43-character valid description enables Review and was cleared without saving. Hosted guest photo setup shows Facebook guidance, no token/address panel, a working return-to-sign-in button and optional skip. Fresh public API boundary checks passed. Final real Petaverse Login consent returned directly to Care: the same test pet, custom avatar, future DEMO CHECK-IN and zero past-care records restored. Unsaved guest setup was not copied. This was the same browser and public origin, not cross-device synchronization.",
+    "hostedEvidence": [
+      "evidence/07-care-saved-reminder.png",
+      "evidence/11-hosted-guest-guidance.png"
+    ],
+    "currentFacebookReturnStatus": "passed",
+    "sourceChanges": [
+      "Bound Facebook-session failures direct owners to sign in again rather than asking for a development token",
+      "Hosted guest onboarding explains Facebook requirements for live Muse/avatar generation and hides an unusable development-token panel",
+      "Overlong guided meal/walk descriptions receive visible validation instead of silently failing"
+    ],
+    "checks": {
+      "checkedOn": "2026-11-03",
+      "combinedTestsPassed": 282,
+      "combinedTestsFailed": 0,
+      "typescript": "passed",
+      "eslint": "passed",
+      "staticWebExport": {
+        "passed": true,
+        "expo": "57.0.31",
+        "publicFiles": 56,
+        "auditedLocalFiles": 75,
+        "privateFiles": 0,
+        "knownPrivateCredentialMatches": 0,
+        "entry": "_expo/static/js/web/entry-9f3e8e144e06ed9c73d7b53d7436835d.js"
+      },
+      "publicHttpBoundary": {
+        "healthAndConfig": "HTTP 200; live mode, authentication required, Facebook available and exact public callback configured",
+        "anonymousAndForgedRequests": "Anonymous chat/check/avatar/memory/location rejected with 401; forged bearer/owner requests also rejected with 401",
+        "cacheAndCookies": "Private/no-store API and CDN policy; checked responses MISS/DYNAMIC with no Age or Set-Cookie",
+        "publicAssets": "Ionicons returned 200 font/ttf, 389724 bytes, matching exported asset hash",
+        "headers": "Existing security headers preserved; no wildcard CORS"
+      }
+    },
+    "publicRehearsalBeforeRelease": {
+      "scope": "Public Facebook-authenticated flow, using a clearly synthetic pet and nonprivate project artwork; these checks preceded the replacement export and deployment",
+      "avatar": "Actual Meta image generation completed from nonprivate project Muse artwork; explicit selection and reload retained the generated avatar. This was not a real pet-photo test.",
+      "careHonesty": "Muse declined to invent a completed demonstration walk; zero past-care records were created.",
+      "approvedReminder": "Muse proposed a future local DEMO CHECK-IN for 4 November 2026 at 09:00 SAST. Before approval nothing was saved; explicit approval saved one appointment note, and reload retained it. This is not a veterinary booking.",
+      "earlierReturn": "Real owner Facebook sign-in and same-browser profile/server-memory sign-out/return passed on 2 November; preserve that dated checkpoint."
+    },
+    "tester": {
+      "invitation": "Pending acceptance",
+      "independentCompletionVerified": false,
+      "metaAppPublished": false,
+      "businessVerification": "Incomplete; Publish disabled"
+    },
+    "storageAndAvailability": "Full profile, care timeline and chat remain device-local. Verified Facebook page memory is separate server storage. The supervised backend and temporary HTTPS tunnel require this computer to remain running.",
+    "submission": {
+      "acceptedParticipantForm": "Login handoff pending; required fields remain unverified",
+      "submittedByThisWork": false,
+      "ownerSubmissionStatus": "Unknown outside this work"
+    },
+    "artifactRoot": "C:\\Users\\Neo\\.codex\\visualizations\\2026\\10\\22\\01a16289-f52d-7261-a115-a76a22a7db11\\finish-today",
+    "video": {
+      "path": "C:\\Users\\Neo\\.codex\\visualizations\\2026\\10\\22\\01a16289-f52d-7261-a115-a76a22a7db11\\finish-today\\meta-pet-captured-demo.mp4",
+      "kind": "captioned-evidence-walkthrough",
+      "durationSeconds": 90,
+      "sha256": "fd30cc9c5f292e63f52b5c4a85e042b8a386dbbf43d6c21c62e8a72cac435c8f",
+      "bytes": 1700042
+    },
+    "sourceArchive": null,
+    "evidence": [
+      "evidence/01-care-avatar.png",
+      "evidence/02-avatar-retained.png",
+      "evidence/03-muse-review-input.png",
+      "evidence/04-muse-honest-live-reply.png",
+      "evidence/05-reminder-before-approval.png",
+      "evidence/06-reminder-approved.png",
+      "evidence/07-care-saved-reminder.png",
+      "evidence/08-private-memory-review.png",
+      "evidence/09-shop-concepts-search.png",
+      "evidence/10-welcome-login-preview.png",
+      "evidence/11-hosted-guest-guidance.png"
+    ],
+    "finishPlan": {
+      "date": "2026-11-03",
+      "officialDeadline": "2026-11-05T04:00:00+02:00",
+      "earlierTarget": "Historical elapsed target: 1 November 2026 at 04:00 SAST; upload planned for 31 October",
+      "finalAction": "Inspect actual form, map reviewed artifacts, answer required earlier-work questions accurately and obtain final owner approval before submitting."
+    },
+    "history": "Original prototype began on 22 October 2026. Earlier source and verification checkpoints retained; the previous demo-flow prose is preserved under docs/history."
+  },
+  "whatsappAndDeviceCheckpoint20261103": {
+    "checkedAt": "2026-11-03T06:47:43.846Z",
+    "combinedTestsPassed": 325,
+    "combinedTestsFailed": 0,
+    "typescript": "passed",
+    "eslint": "passed",
+    "deployment": {
+      "id": "dpl_HA9ZbfHe8KxvSHTHpbS33hFH8Ajo",
+      "state": "READY",
+      "url": "https://petaverse-meta-pet-demo.vercel.app",
+      "entry": "_expo/static/js/web/entry-25ad6fd9c6a1675fa4dde347a48166a7.js",
+      "publicFiles": 56,
+      "auditedLocalFiles": 75,
+      "privateFiles": 0,
+      "knownPrivateCredentialMatches": 0
+    },
+    "publicBrowser": "Existing verified Facebook session and test profile loaded on Settings after deployment. Refresh WhatsApp status completed, Not connected/disabled displayed, and no pairing or scheduling action exposed. New bundle confirmed through rendered DOM.",
+    "nativeSource": "Blocked camera access offers explicit phone-settings recovery. Foreground notification permissions rechecked; revocation cancels app-owned reminders and restoration respects current-owner opt-in. Native Facebook completion binds the initiating profile invitation before owner publication without importing it. Android/iOS bundle exports passed; these are not installers or physical-device tests.",
+    "whatsapp": {
+      "implementation": "Owner-scoped opt-in, short-lived START pairing, exact approved utility template, raw signed sender-bound webhook, encrypted recipient, durable appointment/walk queue, cancellation, STOP and disabled-state revocation; ambiguous sends are not blindly retried.",
+      "currentReadiness": {
+        "enabled": false,
+        "configured": false,
+        "available": false,
+        "status": "disabled"
+      },
+      "metaSetup": "Owner approved the displayed WhatsApp Platform/Cloud API terms and test-number setup on 3 November. Test number visibly created in the existing business app. No access token generated, real recipient added, private environment edited or message sent.",
+      "blocker": "Meta dashboard withholds real inbound production events while the app is unpublished. Business verification is incomplete and Publish disabled; a privacy-policy URL is also listed. Owner explicitly chose to leave verification pending on 3 November.",
+      "remaining": [
+        "Business verification/publication and applicable privacy policy",
+        "Private Cloud API credentials and signed webhook subscription",
+        "Exact approved utility reminder template",
+        "Recipient verification and user-initiated START",
+        "Explicitly authorized real delivery test"
+      ]
+    },
+    "deviceBlockers": [
+      "Expo CLI is signed out and no Expo project is linked; account-status question pending",
+      "Apple signing/account/device registration unverified",
+      "Android/iPhone physical install, camera, OAuth return and notification delivery still untested",
+      "Real permissioned pet-photo test remains outstanding"
+    ],
+    "conceptsAndOtherIntegrations": "Collar stays conceptual by owner instruction. No real merchant/catalog/payment account, crypto asset/wallet or publishing account/permission was selected or connected. No purchases or posts occurred.",
+    "archive": "The previously verified 3 November source ZIP and captured demo video remain unchanged, dated snapshots; they do not include this later integration.",
+    "evidence": [
+      "whatsapp-test-setup-approval.png",
+      "whatsapp-test-number-created.png",
+      "whatsapp-unpublished-webhook-blocker.png",
+      "whatsapp-publication-requirements.png",
+      "whatsapp-settings-live-disabled.png",
+      "whatsapp-public-boundaries.json",
+      "integration-combined-tests-2026-11-03.log"
+    ],
+    "history": "Original 22 October development history, earlier verification checkpoints and original branding retained."
+  },
+  "submissionChecklist20261104": {
+    "checkedAt": "2026-11-04T11:11:30Z",
+    "deployment": {
+      "id": "dpl_5CHiMHtuesbnsRuBCNpisT2Mqp7R",
+      "state": "READY",
+      "url": "https://petaverse-meta-pet-demo.vercel.app",
+      "entry": "_expo/static/js/web/entry-25ad6fd9c6a1675fa4dde347a48166a7.js",
+      "change": "Temporary API tunnel destination restored; frontend application bytes unchanged from the 3 November integration release."
+    },
+    "checks": {
+      "checkedAt": "2026-11-04T11:08:41.165Z",
+      "combinedTestsPassed": 325,
+      "combinedTestsFailed": 0,
+      "typescript": "passed",
+      "eslint": "passed",
+      "codeFilesUnchangedDuringChecks": 136,
+      "receipt": "source-checklist-2026-11-04/freeze-validation-2026-11-04.json"
+    },
+    "publicHttpEvidence": "checklist-2026-11-04/public-demo-restored.json",
+    "publicBrowser": {
+      "checkedAt": "2026-11-04T11:10:44.477Z",
+      "settingsRefresh": "passed",
+      "facebookSession": "Existing verified Facebook session displayed after reload; no fresh OAuth performed.",
+      "profile": "Existing synthetic demonstration profile displayed.",
+      "whatsapp": "Refresh completed; Not connected and switched off; no schedule or pair action.",
+      "metaConnection": "Test Meta connection completed; Live verified this session and Meta Muse responded successfully.",
+      "providerCheckScope": "Brief provider connectivity request using account authentication without pet records; no avatar generation, care entry, message to another person or WhatsApp delivery.",
+      "screenshot": "demo-live-restored.png"
+    },
+    "availability": "Initial 4 November check found a dead temporary tunnel DNS destination with healthy loopback API. A replacement approved tunnel and configuration-only deployment restored public API access. Host computer, backend and tunnel must remain running; this is supervised availability, not persistent hosting.",
+    "submission": {
+      "form": "Accepted participant sign-in required; field names, formats, limits and declarations unverified at this checkpoint",
+      "submittedByThisWork": false,
+      "ownerSubmissionStatusOutsideThisWork": "unknown"
+    },
+    "previousCheckpoint": "whatsappAndDeviceCheckpoint20261103",
+    "boundaries": "Native physical-device tests and unrestricted reviewer Facebook access remain unverified. WhatsApp is disabled; owner left verification pending. Collar remains conceptual, commerce/crypto/social publishing unconnected. Earlier 90-second captured-steps video remains a historical artifact.",
+    "history": "Original 22 October 2026 development records and all previous verification checkpoints retained."
+  },
+  "submissionFormInspection20261104": {
+    "inspectedAt": "2026-11-04T11:20:57.702Z",
+    "portal": "https://cerebralvalley.ai/e/meta-ai-developer-hackathon/hackathon/submit",
+    "access": "Owner explicitly identified their signed-in Edge session; accepted-participant submission form rendered for their account.",
+    "requirements": {
+      "requiredProjectFields": [
+        "Team Name",
+        "Project Description",
+        "Public GitHub Repository",
+        "3-Minute Demo Video",
+        "Describe your use of Meta products to build the submitted project",
+        "Why are Meta's models important to your solution?"
+      ],
+      "requiredSelections": [
+        "Track",
+        "Problem statement",
+        "Likelihood of using Meta Model API",
+        "Overall opinion of Meta Model API"
+      ],
+      "source": "Organizer announcement explicitly requires GitHub to be open source; no specific open-source license named.",
+      "limits": "No HTML maxlength in inspected text controls. No exact video-duration tolerance, editing restriction or exclusive hosting requirement was observed. Video placeholder suggests YouTube; no installer field observed."
+    },
+    "draft": {
+      "teamName": "Meta Pet",
+      "members": "Owner only; user explicitly left T off because she has no Cerebral Valley profile. Kai is the pet subject.",
+      "track": "Indie Developer Track recommended and selected for review",
+      "theme": "Build for Your World",
+      "likelihood": "Very likely, supplied by owner",
+      "opinion": "Very favorable, supplied by owner",
+      "factualFields": "Entered; earlier-work disclosure retained in Project Description",
+      "repositoryAndVideoLinks": "Blank; audited source publication and three-minute video preparation remain in progress",
+      "optionalSurveys": "Unanswered; no owner opinions invented"
+    },
+    "permissions": "Organizer promotion permission checkbox remains unchecked; Submit untouched. No final entry submitted by this work.",
+    "evidence": [
+      "submission-form-rendered.txt",
+      "submission-form.png",
+      "submission-draft-filled.png",
+      "submission-form-draft.json"
+    ],
+    "originalPrototypeBegan": "2026-10-22"
+  },
+  "slideshowCheckpoint20261104": {
+    "checkedAt": "2026-11-04T16:01:04.429Z",
+    "feature": "Muse selected-photo music slideshows with optional Facebook tagged-photo access",
+    "implementation": "Muse local request shortcut; account/pet-scoped bounded local JPEG drafts; labels, captions, reorder, pace, original music preview and browser video download. Explicit local-data reset removes that pet/account slideshow; ordinary sign-out retains it.",
+    "checks": {
+      "combinedTestsPassed": 364,
+      "combinedTestsFailed": 0,
+      "typescript": "passed",
+      "eslint": "passed",
+      "webExport": "passed, 24 HTML routes including slideshow"
+    },
+    "actualBrowser": {
+      "browser": "Edge",
+      "scope": "Isolated loopback demo with two bundled sample artwork images; no owner records or private photos",
+      "verified": [
+        "Muse local request opens the studio",
+        "sample images load",
+        "music preview",
+        "explicit save",
+        "reload retains title and both images",
+        "actual browser MP4 download"
+      ],
+      "download": {
+        "file": "sample-app-export.mp4",
+        "bytes": 267775,
+        "sha256": "bb4688a7fcb32ffb9a3073906b2e54cd64b1558f8481d544550b8dedc6cd9c6a",
+        "video": "H.264, 1280x720, about 7.95 seconds",
+        "audio": "AAC stereo 48kHz, finite decoded signal, no clipping"
+      },
+      "mediaReceipt": "slideshow-feature-2026-11-04/browser-export-audio-verification.json"
+    },
+    "facebook": {
+      "basicLogin": "Unchanged: public_profile only",
+      "optionalPermission": "user_photos requested only after explicit owner action",
+      "protection": "Verified session plus exact owner; live permission recheck on list and import; bounded server-authorized photo IDs; safe CDN download; no provider token in client",
+      "realConsentOrPhotoImportVerified": false,
+      "docs": [
+        "https://developers.facebook.com/docs/graph-api/reference/user/photos/",
+        "https://developers.facebook.com/docs/graph-api/reference/photo/"
+      ],
+      "ownerReportedPhotoAccess": {
+        "recordedAt": "2026-11-04T16:40:26.914Z",
+        "exactOwnerAnswer": "Facebook granted photo access",
+        "provenance": "Owner response to the private consent handoff, not an independent provider read",
+        "selectedPhotoImportAndVideoTest": "Owner asked to browse/select privately and report the outcome; pending"
+      }
+    },
+    "limitations": [
+      "Facebook permission availability, consent and actual private tagged-photo import still require owner testing; privacy settings may withhold tagged photos",
+      "Device-photo chooser automation was blocked by extension file-access permission; that permission was not changed",
+      "Physical Android/iPhone behavior remains untested; native video export is explicitly unsupported",
+      "Drafts are local to this device/account/pet; source photos and already-downloaded videos are separate",
+      "No social posting, scheduling, messages or real commerce added"
+    ],
+    "release": {
+      "publicDeploymentOfThisFeature": {
+        "id": "dpl_9PR1EVrpWH5Qrw6XWAc3YaZ5EUtB",
+        "state": "READY",
+        "target": "production",
+        "url": "https://petaverse-meta-pet-demo.vercel.app/slideshow",
+        "entry": "_expo/static/js/web/entry-456350a8e3d3692ae99050262cf14f54.js",
+        "files": 59,
+        "publicHttpChecks": "all passed",
+        "receipt": "slideshow-feature-2026-11-04/public-release-check.json"
+      },
+      "publicBrowser": {
+        "browser": "Edge",
+        "profile": "Sample story pet, local demo only",
+        "confirmed": [
+          "new studio renders",
+          "two bundled sample artwork images load",
+          "Play changes to Pause with visible slide progression",
+          "Restart stops preview",
+          "explicit local Save success",
+          "Create video completed",
+          "Save video started browser download",
+          "actual downloaded MP4 found and copied to the dated artifacts"
+        ],
+        "screenshot": "slideshow-feature-2026-11-04/public-slideshow-video-ready.png",
+        "download": {
+          "file": "public-sample-app-export.mp4",
+          "bytes": 286774,
+          "sha256": "98f72ecc91a3d556877b2a1176b1b875c582f36c20eb5fcb50e3fe77fba1e857"
+        },
+        "realFacebookPhotoAccessTested": false,
+        "mediaValidation": {
+          "receipt": "slideshow-feature-2026-11-04/public-media-verification.json",
+          "durationSeconds": 8.44,
+          "video": "H.264 1280x720",
+          "audio": "AAC stereo 48kHz; non-silent; zero clipped samples",
+          "fullDecode": "Both streams reached EOF",
+          "artwork": "Bundled sample artwork only"
+        }
+      },
+      "backend": "Existing isolated demo API restarted with its unchanged private environment file, database, memory location and tunnel; new session 91375. No private settings or owner records read.",
+      "routing": "Existing API and health proxies, 19 vendor aliases and security/cache headers preserved byte-for-byte. Anonymous and synthetic-forged requests to both photo endpoints returned 401 with no-store.",
+      "sourcePublicationOfThisFeature": "Not yet performed",
+      "demoVideo": "Local and unfinished by owner instruction; no video/banner files published",
+      "availability": "This computer, isolated backend and temporary Cloudflare tunnel must remain running."
+    },
+    "history": "Original 22 October 2026 development history and all earlier checkpoints retained."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "muse-pet-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check:meta": "node --env-file-if-exists=.env scripts/check.mjs",
+    "auth:setup": "node --env-file-if-exists=.env src/auth.mjs --migrate",
+    "agent:dev": "eve dev",
+    "agent:build": "eve build",
+    "typecheck": "tsc --noEmit",
+    "team:list": "node scripts/team.mjs --list",
+    "team:consult": "node --env-file-if-exists=.env scripts/team.mjs",
+    "team:coordinate": "node --env-file-if-exists=.env scripts/coordinate.mjs",
+    "team:apply": "node scripts/apply-coordination.mjs"
+  },
+  "dependencies": {
+    "better-auth": "1.7.12",
+    "@better-auth/expo": "1.7.12",
+    "eve": "0.82.0",
+    "ai": "7.0.148",
+    "@ai-sdk/openai": "4.0.99",
+    "@ai-sdk/gateway": "4.0.121",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  }
+}

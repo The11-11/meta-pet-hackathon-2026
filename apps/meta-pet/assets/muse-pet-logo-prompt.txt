@@ -1,0 +1,5 @@
+Use case: background-extraction. Input image is the supplied Meta Pay logo. Extract only the blue infinity symbol from the left side as a clean logo asset on a genuinely transparent background. Preserve its exact recognizable silhouette, proportions, and blue gradient. Remove every letter and the entire dark background. Center the blue mark, keep its edges sharp and smooth, leave only a small transparent margin. No added elements, shadows, letters, text, paw shapes, decoration or watermark. This extracted mark will be composed beside exact typeset project wording separately.
+
+Exact final wording: Muse Pet
+Composition: blue extracted symbol and white Arial lettering on #1C2B33, 650 x 160 px. Text was typeset deterministically after built-in image generation.
+

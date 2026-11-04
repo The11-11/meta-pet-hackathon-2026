@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "execution": "instruction_routing",
+  "roles": [
+    {
+      "id": "general",
+      "label": "Everyday pet care",
+      "audience": "pet",
+      "description": "Organize practical everyday care and clarify missing needs.",
+      "scope": "Pet care questions and record summaries.",
+      "capabilities": [
+        "care_guidance",
+        "owner_review_proposals"
+      ],
+      "instructions": "roles/general.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "audience": "pet",
+      "description": "Help owners organize feeding information and questions for their veterinarian.",
+      "scope": "Feeding routines, diet questions and owner-recorded meals.",
+      "capabilities": [
+        "nutrition_guidance",
+        "owner_review_proposals"
+      ],
+      "instructions": "roles/nutrition.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "routines-training",
+      "label": "Routines and training",
+      "audience": "pet",
+      "description": "Support reward-based training, activity, enrichment and rest routines.",
+      "scope": "Training, walks, play, sleep and routine records.",
+      "capabilities": [
+        "routine_guidance",
+        "training_guidance",
+        "owner_review_proposals"
+      ],
+      "instructions": "roles/routines-training.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "health-guidance",
+      "label": "Health guidance",
+      "audience": "pet",
+      "description": "Help prepare observations and vet questions without diagnosis or treatment.",
+      "scope": "Owner-reported symptoms, veterinary questions and appointment preparation.",
+      "capabilities": [
+        "vet_question_preparation",
+        "owner_review_proposals"
+      ],
+      "instructions": "roles/health-guidance.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "marketplace",
+      "label": "Pet product finder",
+      "audience": "pet",
+      "description": "Prepare relevant product criteria and owner-opened Marketplace searches.",
+      "scope": "Pet product suitability questions and Shop search guidance.",
+      "capabilities": [
+        "product_search_guidance"
+      ],
+      "instructions": "roles/marketplace.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "social",
+      "label": "Pet social drafts",
+      "audience": "pet",
+      "description": "Plan pet pages and prepare captions for owner review.",
+      "scope": "Owner-requested bios, content ideas and local social drafts.",
+      "capabilities": [
+        "social_draft_guidance",
+        "owner_review_proposals"
+      ],
+      "instructions": "roles/social.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "check_kickoff_updates",
+      "label": "Hackathon updates reviewer",
+      "audience": "development",
+      "description": "Review supplied official event updates and identify newly required actions.",
+      "scope": "Explicitly pasted hackathon announcements, times and primary-source excerpts.",
+      "capabilities": [
+        "read_only_project_advice",
+        "source_comparison"
+      ],
+      "instructions": "roles/check_kickoff_updates.md",
+      "sourceAgentIds": [
+        "check_kickoff_updates"
+      ]
+    },
+    {
+      "id": "facebook_readiness_review",
+      "label": "Facebook readiness reviewer",
+      "audience": "development",
+      "description": "Review supplied Facebook login configuration and flows.",
+      "scope": "Pasted code, configuration names, redacted errors and sign-in flow descriptions.",
+      "capabilities": [
+        "read_only_project_advice",
+        "authentication_review"
+      ],
+      "instructions": "roles/facebook_readiness_review.md",
+      "sourceAgentIds": [
+        "facebook_readiness_review"
+      ]
+    },
+    {
+      "id": "candid_prize_assessment",
+      "label": "Prize assessment reviewer",
+      "audience": "development",
+      "description": "Assess supplied project evidence against the judging rubric without invented odds.",
+      "scope": "Pasted demo evidence, judging criteria and known gaps.",
+      "capabilities": [
+        "read_only_project_advice",
+        "rubric_review"
+      ],
+      "instructions": "roles/candid_prize_assessment.md",
+      "sourceAgentIds": [
+        "candid_prize_assessment"
+      ]
+    },
+    {
+      "id": "check_build_dates",
+      "label": "Development history reviewer",
+      "audience": "development",
+      "description": "Check supplied build-history and eligibility statements for accuracy.",
+      "scope": "Explicitly pasted development records, dates and eligibility language.",
+      "capabilities": [
+        "read_only_project_advice",
+        "history_review"
+      ],
+      "instructions": "roles/check_build_dates.md",
+      "sourceAgentIds": [
+        "check_build_dates"
+      ]
+    },
+    {
+      "id": "distinctive_repair_demo",
+      "label": "Distinctive demo reviewer",
+      "audience": "development",
+      "description": "Turn supplied product ideas into a clear distinctive demonstration.",
+      "scope": "Pasted demo goals, flows and evidence; original FixLens role retained as a source identity.",
+      "capabilities": [
+        "read_only_project_advice",
+        "demo_design"
+      ],
+      "instructions": "roles/distinctive_repair_demo.md",
+      "sourceAgentIds": [
+        "distinctive_repair_demo"
+      ]
+    },
+    {
+      "id": "hackathon_fit",
+      "label": "Hackathon fit reviewer",
+      "audience": "development",
+      "description": "Match supplied project scope to the event themes and deliverables.",
+      "scope": "Pasted event rules, product scope and submission requirements.",
+      "capabilities": [
+        "read_only_project_advice",
+        "scope_review"
+      ],
+      "instructions": "roles/hackathon_fit.md",
+      "sourceAgentIds": [
+        "hackathon_fit"
+      ]
+    },
+    {
+      "id": "hackathon_update_baseline",
+      "label": "Hackathon baseline reviewer",
+      "audience": "development",
+      "description": "Propose verified changes to a supplied monitoring baseline.",
+      "scope": "Current-message baseline text and new primary-source excerpts.",
+      "capabilities": [
+        "read_only_project_advice",
+        "baseline_review"
+      ],
+      "instructions": "roles/hackathon_update_baseline.md",
+      "sourceAgentIds": [
+        "hackathon_update_baseline"
+      ]
+    },
+    {
+      "id": "independent_hackathon_choice",
+      "label": "Independent product reviewer",
+      "audience": "development",
+      "description": "Challenge product choices and compare supplied alternatives.",
+      "scope": "Explicitly supplied candidate ideas, constraints, evidence and goals.",
+      "capabilities": [
+        "read_only_project_advice",
+        "independent_review"
+      ],
+      "instructions": "roles/independent_hackathon_choice.md",
+      "sourceAgentIds": [
+        "independent_hackathon_choice"
+      ]
+    },
+    {
+      "id": "build-review",
+      "label": "Build reviewer",
+      "audience": "development",
+      "description": "Review pasted implementation details for correctness and regressions.",
+      "scope": "Explicitly pasted code, tests, errors or a proposed patch.",
+      "capabilities": [
+        "read_only_project_advice",
+        "code_review"
+      ],
+      "instructions": "roles/build-review.md",
+      "sourceAgentIds": []
+    },
+    {
+      "id": "project-planning",
+      "label": "Project planner",
+      "audience": "development",
+      "description": "Plan maintainable add-ons and the next reviewable development steps.",
+      "scope": "Pasted project status, constraints, requested changes and dependencies.",
+      "capabilities": [
+        "read_only_project_advice",
+        "project_planning"
+      ],
+      "instructions": "roles/project-planning.md",
+      "sourceAgentIds": []
+    }
+  ]
+}

@@ -1,0 +1,2190 @@
+{
+  "schema": 2,
+  "project": "Meta Pet",
+  "companion": "Muse Pet",
+  "ecosystem": "Petaverse",
+  "releaseLabel": "2026-11-05-current-submission-source",
+  "packageKind": "Owner-authorized current public source and approved root MIT license; not an accepted hackathon submission",
+  "publicationApproval": "Owner instructed submission as-is on5November2026, explicitly authorizing this current source including slideshow; prior MIT/NOTICE approval retained",
+  "proposedRepository": "The11-11/meta-pet-hackathon-2026",
+  "licensingOverlay": {
+    "proposedOnly": false,
+    "approved": true,
+    "files": [
+      "LICENSE",
+      "NOTICE.md"
+    ],
+    "canonicalRootFilesWritten": false,
+    "existingExpoLicensePreserved": "apps/meta-pet/LICENSE"
+  },
+  "shareableExclusions": [
+    {
+      "file": "apps/meta-pet/assets/sounds/source/cat_mewfood.wav",
+      "reason": "Unused legacy cat-source binary; no runtime/test/script references; canonical original preserved and no new licensing claim made."
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/source/cat_softmew.wav",
+      "reason": "Unused legacy cat-source binary; no runtime/test/script references; canonical original preserved and no new licensing claim made."
+    }
+  ],
+  "originalPrototypeBegan": "2026-10-22",
+  "timestampPolicy": "All ZIP entries fixed to 2026-11-05 00:00; source mtimes not embedded",
+  "exclusions": [
+    "Private environment settings",
+    "Backend data and account databases",
+    "Owner pet records and memory",
+    "Browser storage",
+    "Dependencies",
+    "Generated builds and caches",
+    "Private coordination artifacts",
+    "Backups and evidence media",
+    "Symbolic links and junctions",
+    "Two unused legacy cat-source WAV files explicitly listed in shareableExclusions"
+  ],
+  "documentationPolicy": {
+    "scope": "Markdown prose and apps/meta-pet/verification.json only",
+    "label": "owner-pet-reference-generalized-in-shareable-documentation",
+    "description": "Known local owner-pet references are generalized to 'the existing local pet' in the shareable copy. Original canonical documents remain unchanged; development dates and accurate earlier-work history are preserved. Runtime, tests, configuration and asset bytes are unchanged.",
+    "hashes": "Every file records both original source SHA256 and archived SHA256; transformed documentation is verified against its archived hash."
+  },
+  "sourceFiles": [
+    {
+      "file": ".gitignore",
+      "originalSourceBytes": 124,
+      "originalSourceSha256": "a8f9a32e75595d5dfaee5f96e30d57fa079a8c8d88254563ab0addbd7c69ad7a",
+      "archivedBytes": 124,
+      "archivedSha256": "a8f9a32e75595d5dfaee5f96e30d57fa079a8c8d88254563ab0addbd7c69ad7a",
+      "transformations": []
+    },
+    {
+      "file": "AGENTS.md",
+      "originalSourceBytes": 748,
+      "originalSourceSha256": "0310cfee3b7b352542cc0be0f83913bba8054b3e2e0f260f00076279b68ec514",
+      "archivedBytes": 748,
+      "archivedSha256": "0310cfee3b7b352542cc0be0f83913bba8054b3e2e0f260f00076279b68ec514",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/.easignore",
+      "originalSourceBytes": 468,
+      "originalSourceSha256": "e7c42051a4e4f66d3c95012378fc74c2fe9fca76cfd296492d409575782d93e3",
+      "archivedBytes": 468,
+      "archivedSha256": "e7c42051a4e4f66d3c95012378fc74c2fe9fca76cfd296492d409575782d93e3",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/.env.example",
+      "originalSourceBytes": 602,
+      "originalSourceSha256": "c670ba9d39b91f0a9c348b319f0b6fdf925cb8acd6fe1cb553a12e7304e2c85a",
+      "archivedBytes": 602,
+      "archivedSha256": "c670ba9d39b91f0a9c348b319f0b6fdf925cb8acd6fe1cb553a12e7304e2c85a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/.gitignore",
+      "originalSourceBytes": 595,
+      "originalSourceSha256": "849cba6b2ceb24c476f70fbe09ed7f0665b0b6c023568288c35cc8d453b02fbd",
+      "archivedBytes": 595,
+      "archivedSha256": "849cba6b2ceb24c476f70fbe09ed7f0665b0b6c023568288c35cc8d453b02fbd",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/AGENTS.md",
+      "originalSourceBytes": 2598,
+      "originalSourceSha256": "b7d381dd55800d242252e8bf89a40b026586d254e34908210931bc35582396a3",
+      "archivedBytes": 2598,
+      "archivedSha256": "b7d381dd55800d242252e8bf89a40b026586d254e34908210931bc35582396a3",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/app.json",
+      "originalSourceBytes": 1490,
+      "originalSourceSha256": "3ab76c492a99277a0d4c72dc042b788f55ffb38fa8b19b5172b153d46b9d358b",
+      "archivedBytes": 1490,
+      "archivedSha256": "3ab76c492a99277a0d4c72dc042b788f55ffb38fa8b19b5172b153d46b9d358b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/android-icon-background.png",
+      "originalSourceBytes": 17549,
+      "originalSourceSha256": "fb139c2dee362ebf2070e23b96da6fc0d43f8492de38b8af1fd7223e19b5861d",
+      "archivedBytes": 17549,
+      "archivedSha256": "fb139c2dee362ebf2070e23b96da6fc0d43f8492de38b8af1fd7223e19b5861d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/android-icon-foreground.png",
+      "originalSourceBytes": 78796,
+      "originalSourceSha256": "9e3d0315a33c6799de601dd34cd8bf8cc3a8d16f3bf75592baec2ceb7240b391",
+      "archivedBytes": 78796,
+      "archivedSha256": "9e3d0315a33c6799de601dd34cd8bf8cc3a8d16f3bf75592baec2ceb7240b391",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/android-icon-monochrome.png",
+      "originalSourceBytes": 4140,
+      "originalSourceSha256": "6371fc2c12e33ad2215a86c281db3d682a81bebe7c957a842c13b8bf00cceb83",
+      "archivedBytes": 4140,
+      "archivedSha256": "6371fc2c12e33ad2215a86c281db3d682a81bebe7c957a842c13b8bf00cceb83",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/expo-badge-white.png",
+      "originalSourceBytes": 4129,
+      "originalSourceSha256": "d9ba28c5e93aea3c2dabd901ee96fea3bb296ad8e648f6f64706dae11a1a62bd",
+      "archivedBytes": 4129,
+      "archivedSha256": "d9ba28c5e93aea3c2dabd901ee96fea3bb296ad8e648f6f64706dae11a1a62bd",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/expo-badge.png",
+      "originalSourceBytes": 4137,
+      "originalSourceSha256": "ff353c7efadbd379903923cb604fca11c908cba0d4658cc2bd1f147d98317249",
+      "archivedBytes": 4137,
+      "archivedSha256": "ff353c7efadbd379903923cb604fca11c908cba0d4658cc2bd1f147d98317249",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/expo-logo.png",
+      "originalSourceBytes": 3317,
+      "originalSourceSha256": "27b060a757a29038c9618586baa0ba3894dbe60d084c6059df497ff429c2d92f",
+      "archivedBytes": 3317,
+      "archivedSha256": "27b060a757a29038c9618586baa0ba3894dbe60d084c6059df497ff429c2d92f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/favicon.png",
+      "originalSourceBytes": 1129,
+      "originalSourceSha256": "a4e030697a7571b3e95d31860e4da55d2f98e5e861e2b55e414f45a8556828ba",
+      "archivedBytes": 1129,
+      "archivedSha256": "a4e030697a7571b3e95d31860e4da55d2f98e5e861e2b55e414f45a8556828ba",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/icon.png",
+      "originalSourceBytes": 799005,
+      "originalSourceSha256": "7a667804bb80a6a424a5daf18a2599c4f32237cf06fe78fc0de45dbb09e0eccf",
+      "archivedBytes": 799005,
+      "archivedSha256": "7a667804bb80a6a424a5daf18a2599c4f32237cf06fe78fc0de45dbb09e0eccf",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/logo-glow.png",
+      "originalSourceBytes": 331624,
+      "originalSourceSha256": "bbd98a3f3c12d090f4df6065b7462fcdf6bc266209d002b4ef5fe554c245f66c",
+      "archivedBytes": 331624,
+      "archivedSha256": "bbd98a3f3c12d090f4df6065b7462fcdf6bc266209d002b4ef5fe554c245f66c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/react-logo.png",
+      "originalSourceBytes": 6341,
+      "originalSourceSha256": "224b7636b15e672801579b5b418077cbc2ca42f0146389062364356b0ecb5c5c",
+      "archivedBytes": 6341,
+      "archivedSha256": "224b7636b15e672801579b5b418077cbc2ca42f0146389062364356b0ecb5c5c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/react-logo@2x.png",
+      "originalSourceBytes": 14225,
+      "originalSourceSha256": "fa600be9ad2f869c7a8dbaffc78bb15af741123e1319c948f0be51753a153cde",
+      "archivedBytes": 14225,
+      "archivedSha256": "fa600be9ad2f869c7a8dbaffc78bb15af741123e1319c948f0be51753a153cde",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/react-logo@3x.png",
+      "originalSourceBytes": 21252,
+      "originalSourceSha256": "cd84e02a5d542a3e71b7fa10a685c1b9fb51db4aff92aca6c0da6461ce17be16",
+      "archivedBytes": 21252,
+      "archivedSha256": "cd84e02a5d542a3e71b7fa10a685c1b9fb51db4aff92aca6c0da6461ce17be16",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/splash-icon.png",
+      "originalSourceBytes": 3317,
+      "originalSourceSha256": "27b060a757a29038c9618586baa0ba3894dbe60d084c6059df497ff429c2d92f",
+      "archivedBytes": 3317,
+      "archivedSha256": "27b060a757a29038c9618586baa0ba3894dbe60d084c6059df497ff429c2d92f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tabIcons/explore.png",
+      "originalSourceBytes": 215,
+      "originalSourceSha256": "e2dea1c2d20929d83e8eebd74818e808b1b72e376d3a1f3a03679fff0255d073",
+      "archivedBytes": 215,
+      "archivedSha256": "e2dea1c2d20929d83e8eebd74818e808b1b72e376d3a1f3a03679fff0255d073",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tabIcons/explore@2x.png",
+      "originalSourceBytes": 347,
+      "originalSourceSha256": "1b54913b3a0acc3e1fb72d3b9b79ad04814304b35bbb9d03a533e6130ad6c26a",
+      "archivedBytes": 347,
+      "archivedSha256": "1b54913b3a0acc3e1fb72d3b9b79ad04814304b35bbb9d03a533e6130ad6c26a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tabIcons/explore@3x.png",
+      "originalSourceBytes": 468,
+      "originalSourceSha256": "2f3e43801df70ebe83273b90a7d170bacf5ca74a8a8dc5c154a020c2c8b06609",
+      "archivedBytes": 468,
+      "archivedSha256": "2f3e43801df70ebe83273b90a7d170bacf5ca74a8a8dc5c154a020c2c8b06609",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tabIcons/home.png",
+      "originalSourceBytes": 253,
+      "originalSourceSha256": "3829632ec7d495225395f5da3d0942935d7d055979b174613d1ade82fe420e76",
+      "archivedBytes": 253,
+      "archivedSha256": "3829632ec7d495225395f5da3d0942935d7d055979b174613d1ade82fe420e76",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tabIcons/home@2x.png",
+      "originalSourceBytes": 343,
+      "originalSourceSha256": "21c5a07df9017d97464a0a8256e265288f2fca0741ca651de05e12b32f32f5ab",
+      "archivedBytes": 343,
+      "archivedSha256": "21c5a07df9017d97464a0a8256e265288f2fca0741ca651de05e12b32f32f5ab",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tabIcons/home@3x.png",
+      "originalSourceBytes": 479,
+      "originalSourceSha256": "fe5b397975e7cb70ae7a122472d174ed12ec2ae106f7b49c968225ad37f8b3b8",
+      "archivedBytes": 479,
+      "archivedSha256": "fe5b397975e7cb70ae7a122472d174ed12ec2ae106f7b49c968225ad37f8b3b8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/images/tutorial-web.png",
+      "originalSourceBytes": 58959,
+      "originalSourceSha256": "e372ec23ad6262e2e0dc2799ce416b495a631a565bcd24f0615d4afc04dac3bd",
+      "archivedBytes": 58959,
+      "archivedSha256": "e372ec23ad6262e2e0dc2799ce416b495a631a565bcd24f0615d4afc04dac3bd",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/kai-plush-body.png",
+      "originalSourceBytes": 902814,
+      "originalSourceSha256": "42515323665378c1dd7c08a222a695f77c9aecc3fdffc402bb713a29a09f49ff",
+      "archivedBytes": 902814,
+      "archivedSha256": "42515323665378c1dd7c08a222a695f77c9aecc3fdffc402bb713a29a09f49ff",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/kai-plush-paw.png",
+      "originalSourceBytes": 158576,
+      "originalSourceSha256": "2a39760d2fcf70a38d073ca1979168a1d1f2c1a06d6c864f5787277e2dc08702",
+      "archivedBytes": 158576,
+      "archivedSha256": "2a39760d2fcf70a38d073ca1979168a1d1f2c1a06d6c864f5787277e2dc08702",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/kai-plush-prompt.txt",
+      "originalSourceBytes": 3138,
+      "originalSourceSha256": "0c1dbe42a430da08918cfc4cfed61e0571b6dee38c6423df7033b8fae3e96cc7",
+      "archivedBytes": 3138,
+      "archivedSha256": "0c1dbe42a430da08918cfc4cfed61e0571b6dee38c6423df7033b8fae3e96cc7",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/meta-pet-logo.png",
+      "originalSourceBytes": 23315,
+      "originalSourceSha256": "c63fb05910f5e11dac54d3c0f4c7a5b2a10c0fa9f8fa2a46a41291bc51c0af0a",
+      "archivedBytes": 23315,
+      "archivedSha256": "c63fb05910f5e11dac54d3c0f4c7a5b2a10c0fa9f8fa2a46a41291bc51c0af0a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/muse-dog-body.png",
+      "originalSourceBytes": 1222041,
+      "originalSourceSha256": "e65b8259c56e6097279a40d774b4b4c15012044415625c184739be19014263d9",
+      "archivedBytes": 1222041,
+      "archivedSha256": "e65b8259c56e6097279a40d774b4b4c15012044415625c184739be19014263d9",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/muse-dog-paw.png",
+      "originalSourceBytes": 284187,
+      "originalSourceSha256": "45998cdc559e69cb399aff9dfc0c38914f92dcc527904367aed186bd027d580d",
+      "archivedBytes": 284187,
+      "archivedSha256": "45998cdc559e69cb399aff9dfc0c38914f92dcc527904367aed186bd027d580d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/muse-dog-wave-prompt.txt",
+      "originalSourceBytes": 1105,
+      "originalSourceSha256": "37fef5d6f020aa8d94e28b742124ebca013c933bb5a69d207ecf337da97b0d36",
+      "archivedBytes": 1105,
+      "archivedSha256": "37fef5d6f020aa8d94e28b742124ebca013c933bb5a69d207ecf337da97b0d36",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/muse-dog.png",
+      "originalSourceBytes": 1673590,
+      "originalSourceSha256": "886acf2e4b997df309020dca53e9e3e47a42c6280d4dce2605c9ff68992ec81f",
+      "archivedBytes": 1673590,
+      "archivedSha256": "886acf2e4b997df309020dca53e9e3e47a42c6280d4dce2605c9ff68992ec81f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/muse-pet-logo-prompt.txt",
+      "originalSourceBytes": 769,
+      "originalSourceSha256": "52e235de2bbad11b650a5f27a84494681b553c1e728a8594b7d8c75d2e2c1efd",
+      "archivedBytes": 769,
+      "archivedSha256": "52e235de2bbad11b650a5f27a84494681b553c1e728a8594b7d8c75d2e2c1efd",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/products/care-camera-v1.png",
+      "originalSourceBytes": 1470566,
+      "originalSourceSha256": "2cc425dfb863fd4831f678a54c6e475de206994edd6dc06d3931fa9fef9e7a80",
+      "archivedBytes": 1470566,
+      "archivedSha256": "2cc425dfb863fd4831f678a54c6e475de206994edd6dc06d3931fa9fef9e7a80",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/products/care-camera-v1.prompt.txt",
+      "originalSourceBytes": 1157,
+      "originalSourceSha256": "ff1d64f1890630a8b13e5c77ce5891f9b484eafd2b36d2f5cfb6478de183924a",
+      "archivedBytes": 1157,
+      "archivedSha256": "ff1d64f1890630a8b13e5c77ce5891f9b484eafd2b36d2f5cfb6478de183924a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/products/meta-collar-v1.png",
+      "originalSourceBytes": 1153887,
+      "originalSourceSha256": "c78e92cad76744a34955d73a34360cf3d28c36b4bd82d696b29839b78f6bb0ef",
+      "archivedBytes": 1153887,
+      "archivedSha256": "c78e92cad76744a34955d73a34360cf3d28c36b4bd82d696b29839b78f6bb0ef",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/products/meta-collar-v1.prompt.txt",
+      "originalSourceBytes": 1414,
+      "originalSourceSha256": "75c04d9ca77af8857b2ea371c52dcb3dc471a42c6f7decbaf7096b00f5fec4ff",
+      "archivedBytes": 1414,
+      "archivedSha256": "75c04d9ca77af8857b2ea371c52dcb3dc471a42c6f7decbaf7096b00f5fec4ff",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/products/smart-feeder-v1.png",
+      "originalSourceBytes": 1083730,
+      "originalSourceSha256": "3b6c0418dd36b0e7914854f10b1715649d8e43c722fc5c3c67dcbc20e0d4d098",
+      "archivedBytes": 1083730,
+      "archivedSha256": "3b6c0418dd36b0e7914854f10b1715649d8e43c722fc5c3c67dcbc20e0d4d098",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/products/smart-feeder-v1.prompt.txt",
+      "originalSourceBytes": 1339,
+      "originalSourceSha256": "6149201c56d689448ecbbaea766030e7b04d95c352734fa5c3e2e9f4ea6dc642",
+      "archivedBytes": 1339,
+      "archivedSha256": "6149201c56d689448ecbbaea766030e7b04d95c352734fa5c3e2e9f4ea6dc642",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/bark.wav",
+      "originalSourceBytes": 22756,
+      "originalSourceSha256": "b45adc38b36c28f6171361904554e9fc585f77d631464882a64627485b10cd8f",
+      "archivedBytes": 22756,
+      "archivedSha256": "b45adc38b36c28f6171361904554e9fc585f77d631464882a64627485b10cd8f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/meow_v2.wav",
+      "originalSourceBytes": 61784,
+      "originalSourceSha256": "d096fe4505011c8a6090e6617bdddc572c2a8e897289bcc4a0e01d8d81cc0480",
+      "archivedBytes": 61784,
+      "archivedSha256": "d096fe4505011c8a6090e6617bdddc572c2a8e897289bcc4a0e01d8d81cc0480",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/muse-original-slideshow.mp3",
+      "originalSourceBytes": 576620,
+      "originalSourceSha256": "77cab6a006a0bcfce2ec16d0df7d8fe4c2e8524db936305feb39f4785068daac",
+      "archivedBytes": 576620,
+      "archivedSha256": "77cab6a006a0bcfce2ec16d0df7d8fe4c2e8524db936305feb39f4785068daac",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/muse-original-slideshow.provenance.json",
+      "originalSourceBytes": 893,
+      "originalSourceSha256": "9be7965ebcddfefabf3f9b236c6764557b1a7262ea1cdfab998de351b52c70bf",
+      "archivedBytes": 893,
+      "archivedSha256": "9be7965ebcddfefabf3f9b236c6764557b1a7262ea1cdfab998de351b52c70bf",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/README.md",
+      "originalSourceBytes": 1666,
+      "originalSourceSha256": "428d89511c727cf28caa7c24f933e20064cb2e13713aef628ba0ebe21ad4882b",
+      "archivedBytes": 1666,
+      "archivedSha256": "428d89511c727cf28caa7c24f933e20064cb2e13713aef628ba0ebe21ad4882b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/source/cat-110011-preview-raw.mp3",
+      "originalSourceBytes": 38091,
+      "originalSourceSha256": "2890268279c76f06dc0b7c2b59313becf63a152a1addcede5ee5161cee9eb45a",
+      "archivedBytes": 38091,
+      "archivedSha256": "2890268279c76f06dc0b7c2b59313becf63a152a1addcede5ee5161cee9eb45a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/source/cat-source.json",
+      "originalSourceBytes": 937,
+      "originalSourceSha256": "e1da4ad4a87515c523ba9ee6672aad13ccdc6ed43f1c3389de0fcfd89e6cfca8",
+      "archivedBytes": 937,
+      "archivedSha256": "e1da4ad4a87515c523ba9ee6672aad13ccdc6ed43f1c3389de0fcfd89e6cfca8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/source/dog-118072-preview-raw.mp3",
+      "originalSourceBytes": 20544,
+      "originalSourceSha256": "f953ce735d079f5de013ffdc4fa30bbd7677a8f1035a4c3e47d505128f3959f7",
+      "archivedBytes": 20544,
+      "archivedSha256": "f953ce735d079f5de013ffdc4fa30bbd7677a8f1035a4c3e47d505128f3959f7",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/assets/sounds/source/dog-source.json",
+      "originalSourceBytes": 2229,
+      "originalSourceSha256": "45d2afe740f9160ed555999404a9c7e69953438ac70f4d0aa57f85e4937046b2",
+      "archivedBytes": 2229,
+      "archivedSha256": "45d2afe740f9160ed555999404a9c7e69953438ac70f4d0aa57f85e4937046b2",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/.env.example",
+      "originalSourceBytes": 1145,
+      "originalSourceSha256": "c37ff7e5c15cbd3604cb128179d04401c0d8cdd1d328f77cad7d3d56da04000b",
+      "archivedBytes": 1145,
+      "archivedSha256": "c37ff7e5c15cbd3604cb128179d04401c0d8cdd1d328f77cad7d3d56da04000b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/.gitignore",
+      "originalSourceBytes": 79,
+      "originalSourceSha256": "e5d82356c1cfdf760a58aa35a595332fca5dd2e3f377c2a55abf2b4bb48eb34c",
+      "archivedBytes": 79,
+      "archivedSha256": "e5d82356c1cfdf760a58aa35a595332fca5dd2e3f377c2a55abf2b4bb48eb34c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/agent.ts",
+      "originalSourceBytes": 625,
+      "originalSourceSha256": "2ba4e1d457d8f8f32063942142aedb1573fd5f35585cba46f62263b4b881a642",
+      "archivedBytes": 625,
+      "archivedSha256": "2ba4e1d457d8f8f32063942142aedb1573fd5f35585cba46f62263b4b881a642",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/coordination/coordinator.mjs",
+      "originalSourceBytes": 15219,
+      "originalSourceSha256": "6e436d5f0eca1a4ed5d6eb413086c5abf1732907bb33b0cd2168ea9dcaf603e5",
+      "archivedBytes": 15219,
+      "archivedSha256": "6e436d5f0eca1a4ed5d6eb413086c5abf1732907bb33b0cd2168ea9dcaf603e5",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/coordination/workspace.mjs",
+      "originalSourceBytes": 19592,
+      "originalSourceSha256": "bbe096f068f40fc393bfedf56174c25f8125be644f6962c165b8d0dd4fca5257",
+      "archivedBytes": 19592,
+      "archivedSha256": "bbe096f068f40fc393bfedf56174c25f8125be644f6962c165b8d0dd4fca5257",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/instructions.md",
+      "originalSourceBytes": 10963,
+      "originalSourceSha256": "89f83514e4e94da457d6242152a868c6eefe60aa41c8bbb077412b46589e0900",
+      "archivedBytes": 10963,
+      "archivedSha256": "89f83514e4e94da457d6242152a868c6eefe60aa41c8bbb077412b46589e0900",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/development-policy.md",
+      "originalSourceBytes": 1331,
+      "originalSourceSha256": "1f47cdc340877bfa4165efd77331f3bdf6422ae7904886cc28d93f395dcd306a",
+      "archivedBytes": 1331,
+      "archivedSha256": "1f47cdc340877bfa4165efd77331f3bdf6422ae7904886cc28d93f395dcd306a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/index.mjs",
+      "originalSourceBytes": 5236,
+      "originalSourceSha256": "12d7314b1809d5614217e00aadc20934051a42ecc9c5d3ae6e06468b76df3655",
+      "archivedBytes": 5236,
+      "archivedSha256": "12d7314b1809d5614217e00aadc20934051a42ecc9c5d3ae6e06468b76df3655",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/manifest.json",
+      "originalSourceBytes": 8074,
+      "originalSourceSha256": "f0f09fa94112c1a04035393ad155d261a2b483cf124c11047a90e357d81bbed8",
+      "archivedBytes": 8074,
+      "archivedSha256": "f0f09fa94112c1a04035393ad155d261a2b483cf124c11047a90e357d81bbed8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/pet-policy.md",
+      "originalSourceBytes": 597,
+      "originalSourceSha256": "15b271b97c5addd0de5d34e75644126183aac363915b567022f35ea302c91eac",
+      "archivedBytes": 597,
+      "archivedSha256": "15b271b97c5addd0de5d34e75644126183aac363915b567022f35ea302c91eac",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/build-review.md",
+      "originalSourceBytes": 455,
+      "originalSourceSha256": "e430e9ee2ea15491b8740a78bfa25d83bad13093aad8826c43557cea99805c7a",
+      "archivedBytes": 455,
+      "archivedSha256": "e430e9ee2ea15491b8740a78bfa25d83bad13093aad8826c43557cea99805c7a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/candid_prize_assessment.md",
+      "originalSourceBytes": 407,
+      "originalSourceSha256": "7b3c1d1bf028b7ea20cbc540befa90ddbe2081397cba251f429eb5318dd9a74b",
+      "archivedBytes": 407,
+      "archivedSha256": "7b3c1d1bf028b7ea20cbc540befa90ddbe2081397cba251f429eb5318dd9a74b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/check_build_dates.md",
+      "originalSourceBytes": 392,
+      "originalSourceSha256": "41ef33f91a46c6e5894a78a3dee89f4c796ccc468ebfed801fc0e7d4cfb9ce72",
+      "archivedBytes": 392,
+      "archivedSha256": "41ef33f91a46c6e5894a78a3dee89f4c796ccc468ebfed801fc0e7d4cfb9ce72",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/check_kickoff_updates.md",
+      "originalSourceBytes": 477,
+      "originalSourceSha256": "ac4f17a15bbc1fc0047ae84425e4d5dc8f4ab20409d1a5bafcab117967a23748",
+      "archivedBytes": 477,
+      "archivedSha256": "ac4f17a15bbc1fc0047ae84425e4d5dc8f4ab20409d1a5bafcab117967a23748",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/distinctive_repair_demo.md",
+      "originalSourceBytes": 412,
+      "originalSourceSha256": "ac11bdf972d4632fb95ed7fc4a849ee71575921a629111f7fbd7238779ce42d6",
+      "archivedBytes": 412,
+      "archivedSha256": "ac11bdf972d4632fb95ed7fc4a849ee71575921a629111f7fbd7238779ce42d6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/facebook_readiness_review.md",
+      "originalSourceBytes": 412,
+      "originalSourceSha256": "dd824770bb503f5d1172256cd61c1b2f27db12bce22e162061600d13f754696f",
+      "archivedBytes": 412,
+      "archivedSha256": "dd824770bb503f5d1172256cd61c1b2f27db12bce22e162061600d13f754696f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/general.md",
+      "originalSourceBytes": 426,
+      "originalSourceSha256": "8aee56e8d5a06b00295653ff8374d075d67a04d4e419c54d3ab36ee122ccf296",
+      "archivedBytes": 426,
+      "archivedSha256": "8aee56e8d5a06b00295653ff8374d075d67a04d4e419c54d3ab36ee122ccf296",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/hackathon_fit.md",
+      "originalSourceBytes": 383,
+      "originalSourceSha256": "a05afaf5d46a51280b4204b6db7605696d767def60f5abd560110d5a60b653f6",
+      "archivedBytes": 383,
+      "archivedSha256": "a05afaf5d46a51280b4204b6db7605696d767def60f5abd560110d5a60b653f6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/hackathon_update_baseline.md",
+      "originalSourceBytes": 402,
+      "originalSourceSha256": "267385c9423aa700a1971127034df0fb4043f3c82c715dc508162bc025d6a954",
+      "archivedBytes": 402,
+      "archivedSha256": "267385c9423aa700a1971127034df0fb4043f3c82c715dc508162bc025d6a954",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/health-guidance.md",
+      "originalSourceBytes": 480,
+      "originalSourceSha256": "b54b187b5fe49498765ec6792df17f36fa6bd37b53a54573c226a7413fe15fda",
+      "archivedBytes": 480,
+      "archivedSha256": "b54b187b5fe49498765ec6792df17f36fa6bd37b53a54573c226a7413fe15fda",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/independent_hackathon_choice.md",
+      "originalSourceBytes": 404,
+      "originalSourceSha256": "3cb504dcdef9072546c53ea5795c712416c513223f09668d462c6462b289119d",
+      "archivedBytes": 404,
+      "archivedSha256": "3cb504dcdef9072546c53ea5795c712416c513223f09668d462c6462b289119d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/marketplace.md",
+      "originalSourceBytes": 700,
+      "originalSourceSha256": "2c9030f0a47ba3f746c594909b781f6865dc723b100e952bc8c3ec938317f274",
+      "archivedBytes": 700,
+      "archivedSha256": "2c9030f0a47ba3f746c594909b781f6865dc723b100e952bc8c3ec938317f274",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/nutrition.md",
+      "originalSourceBytes": 475,
+      "originalSourceSha256": "de79c24643f4e5010c2461b8c6d9d95ea52ab5e25a822580a27d0d926f83794f",
+      "archivedBytes": 475,
+      "archivedSha256": "de79c24643f4e5010c2461b8c6d9d95ea52ab5e25a822580a27d0d926f83794f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/project-planning.md",
+      "originalSourceBytes": 429,
+      "originalSourceSha256": "347592a3e763143c1d6e05a8caeb2eb11b61abeb26235503985d2f8218b7c365",
+      "archivedBytes": 429,
+      "archivedSha256": "347592a3e763143c1d6e05a8caeb2eb11b61abeb26235503985d2f8218b7c365",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/routines-training.md",
+      "originalSourceBytes": 448,
+      "originalSourceSha256": "f64f83d5e21a2f651a4f9847444f469883d6cd8d6a9d611dd74aabff8d9316f0",
+      "archivedBytes": 448,
+      "archivedSha256": "f64f83d5e21a2f651a4f9847444f469883d6cd8d6a9d611dd74aabff8d9316f0",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/agent/team/roles/social.md",
+      "originalSourceBytes": 463,
+      "originalSourceSha256": "b6353c780780c9db1e670a10d31783b4950d65cac71df6fa9c7a90c4ab6060ea",
+      "archivedBytes": 463,
+      "archivedSha256": "b6353c780780c9db1e670a10d31783b4950d65cac71df6fa9c7a90c4ab6060ea",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/AVATAR-API.md",
+      "originalSourceBytes": 3746,
+      "originalSourceSha256": "fe335e4f495e59f062b5af269784802ba739f2ba87debfbf83164a7f3377c1c0",
+      "archivedBytes": 3746,
+      "archivedSha256": "fe335e4f495e59f062b5af269784802ba739f2ba87debfbf83164a7f3377c1c0",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/CONNECT-MUSE.md",
+      "originalSourceBytes": 3959,
+      "originalSourceSha256": "6f28e58b2b6b863585dd60e99e83e7daed882d2c68ce471629640d4b9a79b36b",
+      "archivedBytes": 3959,
+      "archivedSha256": "6f28e58b2b6b863585dd60e99e83e7daed882d2c68ce471629640d4b9a79b36b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/FACEBOOK-LOGIN.md",
+      "originalSourceBytes": 17182,
+      "originalSourceSha256": "aefff1509c6f7c180e25275fbafd3a124d5aa9fdd60b68231b27ed1c07608927",
+      "archivedBytes": 17200,
+      "archivedSha256": "5397cebdcf6b23644361146b96e812f4982a9154e70af799b69fd972b071edcc",
+      "transformations": [
+        "owner-pet-reference-generalized-in-shareable-documentation"
+      ]
+    },
+    {
+      "file": "apps/meta-pet/backend/package.json",
+      "originalSourceBytes": 1087,
+      "originalSourceSha256": "d3e99ad0af3a6a4fb37102b18308389c517391e20645abad17558c075561badf",
+      "archivedBytes": 1087,
+      "archivedSha256": "d3e99ad0af3a6a4fb37102b18308389c517391e20645abad17558c075561badf",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/pnpm-lock.yaml",
+      "originalSourceBytes": 15889,
+      "originalSourceSha256": "cd46dc0f7f22c2836ef457cfda24da04758e1a2bba64616be656d06b2a6467d8",
+      "archivedBytes": 15889,
+      "archivedSha256": "cd46dc0f7f22c2836ef457cfda24da04758e1a2bba64616be656d06b2a6467d8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/pnpm-workspace.yaml",
+      "originalSourceBytes": 41,
+      "originalSourceSha256": "e2dfdffbe29f138551c958a08d4866554f0145d11d3b405fe74c1d9b8899c5bc",
+      "archivedBytes": 41,
+      "archivedSha256": "e2dfdffbe29f138551c958a08d4866554f0145d11d3b405fe74c1d9b8899c5bc",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/README.md",
+      "originalSourceBytes": 13996,
+      "originalSourceSha256": "8b50af1f2ed6b6a4be7695486ebbe69cc62829f6bb4137fee4f35a97979bca26",
+      "archivedBytes": 13996,
+      "archivedSha256": "8b50af1f2ed6b6a4be7695486ebbe69cc62829f6bb4137fee4f35a97979bca26",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/scripts/apply-coordination.mjs",
+      "originalSourceBytes": 2014,
+      "originalSourceSha256": "a077db2c8c68a102f75a6e5836b7fc318d6947b08da39d36739c4ef078a1b47a",
+      "archivedBytes": 2014,
+      "archivedSha256": "a077db2c8c68a102f75a6e5836b7fc318d6947b08da39d36739c4ef078a1b47a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/scripts/check.mjs",
+      "originalSourceBytes": 407,
+      "originalSourceSha256": "95a04fecf22f5cdb4f37cb58d2c69d30d1ee76f91932df3f89826d3efefe0c01",
+      "archivedBytes": 407,
+      "archivedSha256": "95a04fecf22f5cdb4f37cb58d2c69d30d1ee76f91932df3f89826d3efefe0c01",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/scripts/coordinate.mjs",
+      "originalSourceBytes": 5455,
+      "originalSourceSha256": "ebf715c798205063d820572e9057d5e438ef5b19d725059f191cb738b764ab33",
+      "archivedBytes": 5455,
+      "archivedSha256": "ebf715c798205063d820572e9057d5e438ef5b19d725059f191cb738b764ab33",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/scripts/team.mjs",
+      "originalSourceBytes": 4171,
+      "originalSourceSha256": "0368a7bf89c3b9373d7d8738b7fdd5044744b40a3b55e1545f010193c4280adf",
+      "archivedBytes": 4171,
+      "archivedSha256": "0368a7bf89c3b9373d7d8738b7fdd5044744b40a3b55e1545f010193c4280adf",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/actions.mjs",
+      "originalSourceBytes": 5040,
+      "originalSourceSha256": "f34222e63a25b38e1e2f04811c4933fa2af8521cff5706f6132d9c905128ed9d",
+      "archivedBytes": 5040,
+      "archivedSha256": "f34222e63a25b38e1e2f04811c4933fa2af8521cff5706f6132d9c905128ed9d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/auth.mjs",
+      "originalSourceBytes": 8153,
+      "originalSourceSha256": "84675415748445dd0cbfe2c8365f9b771ccfbde2edaa23aacc49b787eed66e8f",
+      "archivedBytes": 8153,
+      "archivedSha256": "84675415748445dd0cbfe2c8365f9b771ccfbde2edaa23aacc49b787eed66e8f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/avatar.mjs",
+      "originalSourceBytes": 9015,
+      "originalSourceSha256": "2275f8152b25b3138cb22322b4fa2c8e0be46ce1c8b1af2a10eaa7088c11c766",
+      "archivedBytes": 9015,
+      "archivedSha256": "2275f8152b25b3138cb22322b4fa2c8e0be46ce1c8b1af2a10eaa7088c11c766",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/facebook-location.mjs",
+      "originalSourceBytes": 6110,
+      "originalSourceSha256": "88eec685a9b56d709fadb6bdceb909138cf6680f7f9081e528ef8c921f892353",
+      "archivedBytes": 6110,
+      "archivedSha256": "88eec685a9b56d709fadb6bdceb909138cf6680f7f9081e528ef8c921f892353",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/facebook-photos.mjs",
+      "originalSourceBytes": 13020,
+      "originalSourceSha256": "b501700051be77bce77faa200e307026f6816e49bf5ebfb096135466aae8813a",
+      "archivedBytes": 13020,
+      "archivedSha256": "b501700051be77bce77faa200e307026f6816e49bf5ebfb096135466aae8813a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/memory.mjs",
+      "originalSourceBytes": 13137,
+      "originalSourceSha256": "eb13c856a17ae3d0475d6cf5f27912f632501824b181d00d38ab7c6f9fc2473f",
+      "archivedBytes": 13137,
+      "archivedSha256": "eb13c856a17ae3d0475d6cf5f27912f632501824b181d00d38ab7c6f9fc2473f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/muse.mjs",
+      "originalSourceBytes": 26368,
+      "originalSourceSha256": "e3525286d34f1a575ce45726d58d29524544607545af389444d934b6a9e3830e",
+      "archivedBytes": 26368,
+      "archivedSha256": "e3525286d34f1a575ce45726d58d29524544607545af389444d934b6a9e3830e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/server.mjs",
+      "originalSourceBytes": 18070,
+      "originalSourceSha256": "3411af897329bb27ce918dbbb279f488a27234e02c6ef6a082dfdc62330697c6",
+      "archivedBytes": 18070,
+      "archivedSha256": "3411af897329bb27ce918dbbb279f488a27234e02c6ef6a082dfdc62330697c6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/whatsapp-core.mjs",
+      "originalSourceBytes": 12030,
+      "originalSourceSha256": "8e3ca75b848ffaa1df44712a7ef99a563e8604f9d9be8f3619f5d5c3eadedfe4",
+      "archivedBytes": 12030,
+      "archivedSha256": "8e3ca75b848ffaa1df44712a7ef99a563e8604f9d9be8f3619f5d5c3eadedfe4",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/whatsapp-store.mjs",
+      "originalSourceBytes": 17791,
+      "originalSourceSha256": "d8ed6daab2b6132ea435ad5f79d1921135905746c038b49df1d4f323445ae191",
+      "archivedBytes": 17791,
+      "archivedSha256": "d8ed6daab2b6132ea435ad5f79d1921135905746c038b49df1d4f323445ae191",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/src/whatsapp.mjs",
+      "originalSourceBytes": 8902,
+      "originalSourceSha256": "78218b9bab610d39b301f50f22dccb5633013162ec96ae3cb2c56def6980f4dc",
+      "archivedBytes": 8902,
+      "archivedSha256": "78218b9bab610d39b301f50f22dccb5633013162ec96ae3cb2c56def6980f4dc",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/auth-destination.test.mjs",
+      "originalSourceBytes": 1148,
+      "originalSourceSha256": "cf5271978ea4b2cdb7863a40befd64e19576456da9e47300418474ed3b0bc19d",
+      "archivedBytes": 1148,
+      "archivedSha256": "cf5271978ea4b2cdb7863a40befd64e19576456da9e47300418474ed3b0bc19d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/auth.test.mjs",
+      "originalSourceBytes": 15548,
+      "originalSourceSha256": "a221f043076d999153b5e2de16bda50422ecd5025c8835b00637d37b2e0e5225",
+      "archivedBytes": 15548,
+      "archivedSha256": "a221f043076d999153b5e2de16bda50422ecd5025c8835b00637d37b2e0e5225",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/avatar-client.test.mjs",
+      "originalSourceBytes": 8440,
+      "originalSourceSha256": "400e68e8a3dd53782f496f3a7858b60b67763b44abdab216f7e3aeda91d18732",
+      "archivedBytes": 8440,
+      "archivedSha256": "400e68e8a3dd53782f496f3a7858b60b67763b44abdab216f7e3aeda91d18732",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/avatar.test.mjs",
+      "originalSourceBytes": 8555,
+      "originalSourceSha256": "54d59888fa168ac30031c31f601d0715221766a60e5f1c89077824ff00431eea",
+      "archivedBytes": 8555,
+      "archivedSha256": "54d59888fa168ac30031c31f601d0715221766a60e5f1c89077824ff00431eea",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/care-persistence.test.mjs",
+      "originalSourceBytes": 5434,
+      "originalSourceSha256": "ae6223cb98af9909ffb055a2e126cea65fbb0f4d442dd6804c59f0cb22ab3aaf",
+      "archivedBytes": 5434,
+      "archivedSha256": "ae6223cb98af9909ffb055a2e126cea65fbb0f4d442dd6804c59f0cb22ab3aaf",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/cli-entry.test.mjs",
+      "originalSourceBytes": 2544,
+      "originalSourceSha256": "f7f4cef50c8f805f17fc982a81274ff24aef19359d2491c26cb53fada7d50d06",
+      "archivedBytes": 2544,
+      "archivedSha256": "f7f4cef50c8f805f17fc982a81274ff24aef19359d2491c26cb53fada7d50d06",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/client-care-context.test.mjs",
+      "originalSourceBytes": 4729,
+      "originalSourceSha256": "79b3dd96f6df574da323a5f3e5298da7f6fbe983fbf0180e928f7820cae89fc3",
+      "archivedBytes": 4729,
+      "archivedSha256": "79b3dd96f6df574da323a5f3e5298da7f6fbe983fbf0180e928f7820cae89fc3",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/context-budget.test.mjs",
+      "originalSourceBytes": 3955,
+      "originalSourceSha256": "0df1b2babd660357e3abe70cc8d98943e91a81f3a5e2869b1411aaeb2e99656e",
+      "archivedBytes": 3955,
+      "archivedSha256": "0df1b2babd660357e3abe70cc8d98943e91a81f3a5e2869b1411aaeb2e99656e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/conversation.test.mjs",
+      "originalSourceBytes": 4904,
+      "originalSourceSha256": "9edc4ea23306dd721dfab760bf3196f01516f089d6d2d018ee2365e2df24d00d",
+      "archivedBytes": 4904,
+      "archivedSha256": "9edc4ea23306dd721dfab760bf3196f01516f089d6d2d018ee2365e2df24d00d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/coordinator-workspace.test.mjs",
+      "originalSourceBytes": 15887,
+      "originalSourceSha256": "a73cb52ae2138a30d365d5d844247c7edf14ae64e39037f8df03082a1dc7ea06",
+      "archivedBytes": 15887,
+      "archivedSha256": "a73cb52ae2138a30d365d5d844247c7edf14ae64e39037f8df03082a1dc7ea06",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/coordinator.test.mjs",
+      "originalSourceBytes": 15905,
+      "originalSourceSha256": "dc08a9b2ee1f6a7db93090c502771bb2d3b9ab34b825e9499f8328859a69535e",
+      "archivedBytes": 15905,
+      "archivedSha256": "dc08a9b2ee1f6a7db93090c502771bb2d3b9ab34b825e9499f8328859a69535e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/facebook-location.test.mjs",
+      "originalSourceBytes": 14168,
+      "originalSourceSha256": "d2fb0bbb6a324fc53cd5b2f6168e1f816506197727b447331358db049cca24d6",
+      "archivedBytes": 14168,
+      "archivedSha256": "d2fb0bbb6a324fc53cd5b2f6168e1f816506197727b447331358db049cca24d6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/facebook-photos-client.test.mjs",
+      "originalSourceBytes": 4119,
+      "originalSourceSha256": "322043519f2c9e03ff403a9c8549cd670b9b34346d74fba52fd4c7ed83214297",
+      "archivedBytes": 4119,
+      "archivedSha256": "322043519f2c9e03ff403a9c8549cd670b9b34346d74fba52fd4c7ed83214297",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/facebook-photos.test.mjs",
+      "originalSourceBytes": 14835,
+      "originalSourceSha256": "c5542078e12f13dba50b98f5d3a3664e1c33e99c06bf398e63414868f1d0980c",
+      "archivedBytes": 14835,
+      "archivedSha256": "c5542078e12f13dba50b98f5d3a3664e1c33e99c06bf398e63414868f1d0980c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/harness.test.mjs",
+      "originalSourceBytes": 6727,
+      "originalSourceSha256": "86843b7c3a991d70f056a9f25b0e34ae8c06f5628135d313e2a2caf734da8971",
+      "archivedBytes": 6727,
+      "archivedSha256": "86843b7c3a991d70f056a9f25b0e34ae8c06f5628135d313e2a2caf734da8971",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/latest-intent.test.mjs",
+      "originalSourceBytes": 4034,
+      "originalSourceSha256": "d627e77970ad6fdb26f5eb1d88b9fe5706c485452e7e14d10b22bd79f65a8d0e",
+      "archivedBytes": 4034,
+      "archivedSha256": "d627e77970ad6fdb26f5eb1d88b9fe5706c485452e7e14d10b22bd79f65a8d0e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/marketplace.test.mjs",
+      "originalSourceBytes": 1951,
+      "originalSourceSha256": "4c8e7939cef83295da5b75d1a4a9ad4b4cf13b981a0bf31edbe1270d0cab9e98",
+      "archivedBytes": 1951,
+      "archivedSha256": "4c8e7939cef83295da5b75d1a4a9ad4b4cf13b981a0bf31edbe1270d0cab9e98",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/memory.test.mjs",
+      "originalSourceBytes": 18371,
+      "originalSourceSha256": "fb30248671b38554839b46efb700642d77797f38a33c82ac57dcef4c1edaa503",
+      "archivedBytes": 18371,
+      "archivedSha256": "fb30248671b38554839b46efb700642d77797f38a33c82ac57dcef4c1edaa503",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/meta-protocol.test.mjs",
+      "originalSourceBytes": 4258,
+      "originalSourceSha256": "ab53587244a18cf670af90dd151c65a97763db3f663dc935e6ce2ea0ce821cc3",
+      "archivedBytes": 4258,
+      "archivedSha256": "ab53587244a18cf670af90dd151c65a97763db3f663dc935e6ce2ea0ce821cc3",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/mobile-contract.test.mjs",
+      "originalSourceBytes": 1433,
+      "originalSourceSha256": "d606977a5c867edfc23a8b2098d1db580d041f99d62600ca86775c6539c21513",
+      "archivedBytes": 1433,
+      "archivedSha256": "d606977a5c867edfc23a8b2098d1db580d041f99d62600ca86775c6539c21513",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/muse-errors.test.mjs",
+      "originalSourceBytes": 1529,
+      "originalSourceSha256": "6a9a542addb2ab701c03277c7d93f530e2f8f431d6c122520a8744881f7ec9fd",
+      "archivedBytes": 1529,
+      "archivedSha256": "6a9a542addb2ab701c03277c7d93f530e2f8f431d6c122520a8744881f7ec9fd",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/muse.test.mjs",
+      "originalSourceBytes": 10638,
+      "originalSourceSha256": "f7f9e386ae18e1784155cf54e065d2e7b4668b957533af1cc98e28da8540891d",
+      "archivedBytes": 10638,
+      "archivedSha256": "f7f9e386ae18e1784155cf54e065d2e7b4668b957533af1cc98e28da8540891d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/native-login-completion.test.mjs",
+      "originalSourceBytes": 4158,
+      "originalSourceSha256": "7b8493e510f2794325b44dddd0fabd1a818494703faf4eb9828018084e2d8b34",
+      "archivedBytes": 4158,
+      "archivedSha256": "7b8493e510f2794325b44dddd0fabd1a818494703faf4eb9828018084e2d8b34",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/notification-data.test.mjs",
+      "originalSourceBytes": 11010,
+      "originalSourceSha256": "e088b8cb417685d19f0e9cafd5ab5fb97e284faa2cdb22570b6fe30163a89b62",
+      "archivedBytes": 11010,
+      "archivedSha256": "e088b8cb417685d19f0e9cafd5ab5fb97e284faa2cdb22570b6fe30163a89b62",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/onboarding-connection.test.mjs",
+      "originalSourceBytes": 6292,
+      "originalSourceSha256": "f246b7f2bf82a2be886c521501eb3d46831cfd0b6adefc4c093542f3588c0634",
+      "archivedBytes": 6292,
+      "archivedSha256": "f246b7f2bf82a2be886c521501eb3d46831cfd0b6adefc4c093542f3588c0634",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/owner-data.test.mjs",
+      "originalSourceBytes": 5771,
+      "originalSourceSha256": "eebb7a5b7aebd43776ac054cd371b03cbd20e42c1b74522df8b3f39b6d07c048",
+      "archivedBytes": 5771,
+      "archivedSha256": "eebb7a5b7aebd43776ac054cd371b03cbd20e42c1b74522df8b3f39b6d07c048",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/owner-session-transport.test.mjs",
+      "originalSourceBytes": 3742,
+      "originalSourceSha256": "65d65063eebd688b5db0c809bb490c00d56fb74489ff9bd70ffba5547e5dfeab",
+      "archivedBytes": 3742,
+      "archivedSha256": "65d65063eebd688b5db0c809bb490c00d56fb74489ff9bd70ffba5547e5dfeab",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/pet-care-context.test.mjs",
+      "originalSourceBytes": 5634,
+      "originalSourceSha256": "ec23f9cbfacca70aea749e0b1f6b8f8d9459219db18467bed6835d51d80fbb4b",
+      "archivedBytes": 5634,
+      "archivedSha256": "ec23f9cbfacca70aea749e0b1f6b8f8d9459219db18467bed6835d51d80fbb4b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/pet-notifications.test.mjs",
+      "originalSourceBytes": 14202,
+      "originalSourceSha256": "45c444dab46c713da670b765dd4150c85a9c7834e7e886a2bf8f4ca2dac4d016",
+      "archivedBytes": 14202,
+      "archivedSha256": "45c444dab46c713da670b765dd4150c85a9c7834e7e886a2bf8f4ca2dac4d016",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/pet-photo.test.mjs",
+      "originalSourceBytes": 5113,
+      "originalSourceSha256": "9c513391862e32238bc48a23bc8bc3bc97e6ef96643193197701d782218295e7",
+      "archivedBytes": 5113,
+      "archivedSha256": "9c513391862e32238bc48a23bc8bc3bc97e6ef96643193197701d782218295e7",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/public-backend.test.mjs",
+      "originalSourceBytes": 6354,
+      "originalSourceSha256": "5c37325a2dd39661f8b57f7abd87a590a13266db8c4eb246fc20b1e539e90d4d",
+      "archivedBytes": 6354,
+      "archivedSha256": "5c37325a2dd39661f8b57f7abd87a590a13266db8c4eb246fc20b1e539e90d4d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/slideshow-intent.test.mjs",
+      "originalSourceBytes": 2080,
+      "originalSourceSha256": "6d9b4b69329e6d4987616ef0bb73ccf56c51a9539743669ee7a153419a1e379e",
+      "archivedBytes": 2080,
+      "archivedSha256": "6d9b4b69329e6d4987616ef0bb73ccf56c51a9539743669ee7a153419a1e379e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/social-consent.test.mjs",
+      "originalSourceBytes": 6673,
+      "originalSourceSha256": "e4c4d15c8500b7ee23b8ffbcdb7f3c34edbd91b82f6ad4978e1737638e7a2810",
+      "archivedBytes": 6673,
+      "archivedSha256": "e4c4d15c8500b7ee23b8ffbcdb7f3c34edbd91b82f6ad4978e1737638e7a2810",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/social-data.test.mjs",
+      "originalSourceBytes": 27521,
+      "originalSourceSha256": "73c975632187e07d45dae62541f3bccfffbd6e4e5f4b0d3c177d6b58173ca2bc",
+      "archivedBytes": 27521,
+      "archivedSha256": "73c975632187e07d45dae62541f3bccfffbd6e4e5f4b0d3c177d6b58173ca2bc",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/social.test.mjs",
+      "originalSourceBytes": 10930,
+      "originalSourceSha256": "9bd4e2e2e60db17175dbaf78bfa672e2c3ad0f939d65d8c2ab56e08c1718855a",
+      "archivedBytes": 10930,
+      "archivedSha256": "9bd4e2e2e60db17175dbaf78bfa672e2c3ad0f939d65d8c2ab56e08c1718855a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/team.test.mjs",
+      "originalSourceBytes": 10003,
+      "originalSourceSha256": "d2d4beefd7ef4baff6dbce72b5621b0b15f7a948af8e6ef35f733b4ac0f17cd8",
+      "archivedBytes": 10003,
+      "archivedSha256": "d2d4beefd7ef4baff6dbce72b5621b0b15f7a948af8e6ef35f733b4ac0f17cd8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/trainer-guidance.test.mjs",
+      "originalSourceBytes": 1501,
+      "originalSourceSha256": "927b02ead57b7c7fa2872a5a1e49c851e26111025851639f74203e067688e8d7",
+      "archivedBytes": 1501,
+      "archivedSha256": "927b02ead57b7c7fa2872a5a1e49c851e26111025851639f74203e067688e8d7",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/whatsapp-client.test.mjs",
+      "originalSourceBytes": 10103,
+      "originalSourceSha256": "bcd65a588a9ce235b88d30cd6484f1c921011be480a40001fede545859c8532d",
+      "archivedBytes": 10103,
+      "archivedSha256": "bcd65a588a9ce235b88d30cd6484f1c921011be480a40001fede545859c8532d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/test/whatsapp.test.mjs",
+      "originalSourceBytes": 21323,
+      "originalSourceSha256": "89ee0357863529417de14411f57a73d3a1574ebedcf2db5f2968e7f76a3e6ee2",
+      "archivedBytes": 21323,
+      "archivedSha256": "89ee0357863529417de14411f57a73d3a1574ebedcf2db5f2968e7f76a3e6ee2",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/tsconfig.json",
+      "originalSourceBytes": 289,
+      "originalSourceSha256": "c7ac2fab27e84cd69f69bf4d71af84d40a3c1d4d7d5620c1e8120c013847ae1f",
+      "archivedBytes": 289,
+      "archivedSha256": "c7ac2fab27e84cd69f69bf4d71af84d40a3c1d4d7d5620c1e8120c013847ae1f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/backend/WHATSAPP-SETUP.md",
+      "originalSourceBytes": 12311,
+      "originalSourceSha256": "63834dc6af1678c1821826a761a85af3cda8101e93af70d77bff1b235e7dc135",
+      "archivedBytes": 12311,
+      "archivedSha256": "63834dc6af1678c1821826a761a85af3cda8101e93af70d77bff1b235e7dc135",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/design/muse-pet-day-night-palette.json",
+      "originalSourceBytes": 2309,
+      "originalSourceSha256": "6b17e1ce6d8e091b4224431834c3308e3d22c153e3fab3e8b9e76940300c571a",
+      "archivedBytes": 2309,
+      "archivedSha256": "6b17e1ce6d8e091b4224431834c3308e3d22c153e3fab3e8b9e76940300c571a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/design/muse-pet-day-night-palette.png",
+      "originalSourceBytes": 156030,
+      "originalSourceSha256": "9fb177a1146d519a8cf0c87f0ec2c187d0b581e5c0793d24023e101b9adb074f",
+      "archivedBytes": 156030,
+      "archivedSha256": "9fb177a1146d519a8cf0c87f0ec2c187d0b581e5c0793d24023e101b9adb074f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/design/muse-pet-day-night-palette.svg",
+      "originalSourceBytes": 9385,
+      "originalSourceSha256": "020bd71dc95cffe3b2dfa208cfbb2ce9b23cec2dcc8d06cb0868b84c3b112c12",
+      "archivedBytes": 9385,
+      "archivedSha256": "020bd71dc95cffe3b2dfa208cfbb2ce9b23cec2dcc8d06cb0868b84c3b112c12",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/eas.json",
+      "originalSourceBytes": 297,
+      "originalSourceSha256": "e982cee6f03cf18519773a0cfa9c0ab30fc7f91612dc7f717788d5a9773e05e6",
+      "archivedBytes": 297,
+      "archivedSha256": "e982cee6f03cf18519773a0cfa9c0ab30fc7f91612dc7f717788d5a9773e05e6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/eslint.config.js",
+      "originalSourceBytes": 217,
+      "originalSourceSha256": "07a053bf020f67f7376344e7ed376d0d549c4e58f8ac82adaa0e7fd5bfebe7b7",
+      "archivedBytes": 217,
+      "archivedSha256": "07a053bf020f67f7376344e7ed376d0d549c4e58f8ac82adaa0e7fd5bfebe7b7",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/expo-env.d.ts",
+      "originalSourceBytes": 110,
+      "originalSourceSha256": "6fc02634da46d3edc5a88eec9173ba6bf709726be3cba83c73ebd8e859d5c147",
+      "archivedBytes": 110,
+      "archivedSha256": "6fc02634da46d3edc5a88eec9173ba6bf709726be3cba83c73ebd8e859d5c147",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/LICENSE",
+      "originalSourceBytes": 1106,
+      "originalSourceSha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4",
+      "archivedBytes": 1106,
+      "archivedSha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/package.json",
+      "originalSourceBytes": 1799,
+      "originalSourceSha256": "fa456052933895c6f84afb726181253dfe7064308c93b83c410151e655b0288e",
+      "archivedBytes": 1799,
+      "archivedSha256": "fa456052933895c6f84afb726181253dfe7064308c93b83c410151e655b0288e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/pnpm-lock.yaml",
+      "originalSourceBytes": 393165,
+      "originalSourceSha256": "453edbc97928c6f863ae0f6a6148fbe5934aafe6df2235d53e26f88c0af22037",
+      "archivedBytes": 393165,
+      "archivedSha256": "453edbc97928c6f863ae0f6a6148fbe5934aafe6df2235d53e26f88c0af22037",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/pnpm-workspace.yaml",
+      "originalSourceBytes": 277,
+      "originalSourceSha256": "dc9aee02930c4246aa53a29c51147c8b823fff97b31bdc075b364132a09882f3",
+      "archivedBytes": 277,
+      "archivedSha256": "dc9aee02930c4246aa53a29c51147c8b823fff97b31bdc075b364132a09882f3",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/README.md",
+      "originalSourceBytes": 30729,
+      "originalSourceSha256": "0335bfeab2974c74a67c11e94111b3a27353f8906b3a365c41ae767c5d729ffa",
+      "archivedBytes": 30773,
+      "archivedSha256": "be704436a387b84601e091a99deb9ed0a618c31045eb755de99631e053a7096d",
+      "transformations": [
+        "owner-pet-reference-generalized-in-shareable-documentation"
+      ]
+    },
+    {
+      "file": "apps/meta-pet/scripts/validate-pet-sounds.mjs",
+      "originalSourceBytes": 2579,
+      "originalSourceSha256": "b30205bf16a2f34dfcfcc0c076e52aab02a49fcce6df91dd21c456172946bd84",
+      "archivedBytes": 2579,
+      "archivedSha256": "b30205bf16a2f34dfcfcc0c076e52aab02a49fcce6df91dd21c456172946bd84",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/_layout.tsx",
+      "originalSourceBytes": 4242,
+      "originalSourceSha256": "3c8ef27ae28073de6663dcefd6f188c7f69c83a77c27a2ca1f38c6a48bee7e74",
+      "archivedBytes": 4242,
+      "archivedSha256": "3c8ef27ae28073de6663dcefd6f188c7f69c83a77c27a2ca1f38c6a48bee7e74",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/(tabs)/_layout.tsx",
+      "originalSourceBytes": 1599,
+      "originalSourceSha256": "1519627186099a9e9aa036fa6247735d253531819d03d7c53ca8405759245e48",
+      "archivedBytes": 1599,
+      "archivedSha256": "1519627186099a9e9aa036fa6247735d253531819d03d7c53ca8405759245e48",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/(tabs)/index.tsx",
+      "originalSourceBytes": 627,
+      "originalSourceSha256": "30378e40e43f6117f915bc60d20e769293de4a18d16555fb9c033be42579a96a",
+      "archivedBytes": 627,
+      "archivedSha256": "30378e40e43f6117f915bc60d20e769293de4a18d16555fb9c033be42579a96a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/(tabs)/muse.tsx",
+      "originalSourceBytes": 244,
+      "originalSourceSha256": "7114f2af6f466932809ca1c6d3d6e423be1d9dd33245b573f922501a7186f18f",
+      "archivedBytes": 244,
+      "archivedSha256": "7114f2af6f466932809ca1c6d3d6e423be1d9dd33245b573f922501a7186f18f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/(tabs)/rewards.tsx",
+      "originalSourceBytes": 304,
+      "originalSourceSha256": "5207604b9c3233cdfdaa9383b74d529024066212dd0c08eec05ec33fe8865a1c",
+      "archivedBytes": 304,
+      "archivedSha256": "5207604b9c3233cdfdaa9383b74d529024066212dd0c08eec05ec33fe8865a1c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/(tabs)/shop.tsx",
+      "originalSourceBytes": 387,
+      "originalSourceSha256": "616457a7f509f4529be4348918f807d30cb7093efd8d46d669a3482628162e2f",
+      "archivedBytes": 387,
+      "archivedSha256": "616457a7f509f4529be4348918f807d30cb7093efd8d46d669a3482628162e2f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/appointment.tsx",
+      "originalSourceBytes": 2440,
+      "originalSourceSha256": "5a4ed7d6f4c1771c7088e9889a68a02145b44c8530dc522e7e96f3f0bcdfb30d",
+      "archivedBytes": 2440,
+      "archivedSha256": "5a4ed7d6f4c1771c7088e9889a68a02145b44c8530dc522e7e96f3f0bcdfb30d",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/auth/callback.tsx",
+      "originalSourceBytes": 3227,
+      "originalSourceSha256": "e06652ec32ffd9e94106e236edb3e33421e3af4721c17d22aecbe8e6b2446448",
+      "archivedBytes": 3227,
+      "archivedSha256": "e06652ec32ffd9e94106e236edb3e33421e3af4721c17d22aecbe8e6b2446448",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/avatar.tsx",
+      "originalSourceBytes": 4270,
+      "originalSourceSha256": "65e5b5e3b74cfab78c33ed31cdfb80d5f575101acc61cae9ee9e6aa779fe27b8",
+      "archivedBytes": 4270,
+      "archivedSha256": "65e5b5e3b74cfab78c33ed31cdfb80d5f575101acc61cae9ee9e6aa779fe27b8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/collar.tsx",
+      "originalSourceBytes": 2246,
+      "originalSourceSha256": "7cfff5fa002233790e226d8314cc902f7e4d6d5c8c735bff8e5fe36589d0a9f5",
+      "archivedBytes": 2246,
+      "archivedSha256": "7cfff5fa002233790e226d8314cc902f7e4d6d5c8c735bff8e5fe36589d0a9f5",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/entry.tsx",
+      "originalSourceBytes": 1643,
+      "originalSourceSha256": "769e88937266c37755660d8a299878326060de31ff742522578aac9e45546e6e",
+      "archivedBytes": 1643,
+      "archivedSha256": "769e88937266c37755660d8a299878326060de31ff742522578aac9e45546e6e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/keep-profile.tsx",
+      "originalSourceBytes": 1578,
+      "originalSourceSha256": "b96ce1b04da8b5d07c33482f86c555c59c6b7a8d0c243d72cb5192ac54dfd293",
+      "archivedBytes": 1578,
+      "archivedSha256": "b96ce1b04da8b5d07c33482f86c555c59c6b7a8d0c243d72cb5192ac54dfd293",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/memory.tsx",
+      "originalSourceBytes": 536,
+      "originalSourceSha256": "73e3884bd0761b274663e02d9821c48978b41540e2a80f64e01e902a9959ad53",
+      "archivedBytes": 536,
+      "archivedSha256": "73e3884bd0761b274663e02d9821c48978b41540e2a80f64e01e902a9959ad53",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/onboarding.tsx",
+      "originalSourceBytes": 1943,
+      "originalSourceSha256": "161c2f0c45162c0e2e5f59ff3355a4f0269d93eca72a95b343e5c1cc02466fcd",
+      "archivedBytes": 1943,
+      "archivedSha256": "161c2f0c45162c0e2e5f59ff3355a4f0269d93eca72a95b343e5c1cc02466fcd",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/redeem.tsx",
+      "originalSourceBytes": 2030,
+      "originalSourceSha256": "6a52930836d9fff30c05c28fa9a2eb736d81aa44167227409a8cbf68186f3c85",
+      "archivedBytes": 2030,
+      "archivedSha256": "6a52930836d9fff30c05c28fa9a2eb736d81aa44167227409a8cbf68186f3c85",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/settings.tsx",
+      "originalSourceBytes": 15917,
+      "originalSourceSha256": "bea941d550bcdd6d1a787fe74d43f1f576f5eb650a1616da1af9fd547bbcd1d9",
+      "archivedBytes": 15917,
+      "archivedSha256": "bea941d550bcdd6d1a787fe74d43f1f576f5eb650a1616da1af9fd547bbcd1d9",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/slideshow.tsx",
+      "originalSourceBytes": 26663,
+      "originalSourceSha256": "d662ab2bfe831b28d3fb1615c722dd91e37f9f9a5051f4e50297d49a36acca11",
+      "archivedBytes": 26663,
+      "archivedSha256": "d662ab2bfe831b28d3fb1615c722dd91e37f9f9a5051f4e50297d49a36acca11",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/social.tsx",
+      "originalSourceBytes": 19922,
+      "originalSourceSha256": "140eb11682ac9a2eb1c43d7550c6adc3c034d80129e0b32308c4877de6014e3f",
+      "archivedBytes": 19922,
+      "archivedSha256": "140eb11682ac9a2eb1c43d7550c6adc3c034d80129e0b32308c4877de6014e3f",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/trainers.tsx",
+      "originalSourceBytes": 543,
+      "originalSourceSha256": "2cd422290eaa37c93b7a635075756c64c61a0127d0c0c7c5de63adf625c75ce6",
+      "archivedBytes": 543,
+      "archivedSha256": "2cd422290eaa37c93b7a635075756c64c61a0127d0c0c7c5de63adf625c75ce6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/app/welcome.tsx",
+      "originalSourceBytes": 6149,
+      "originalSourceSha256": "e25bf390be6cd3081075e4a446af2b611a8e05975e3e04d749e40d5d5b238e61",
+      "archivedBytes": 6149,
+      "archivedSha256": "e25bf390be6cd3081075e4a446af2b611a8e05975e3e04d749e40d5d5b238e61",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/auth-client.ts",
+      "originalSourceBytes": 529,
+      "originalSourceSha256": "24112f839c386f2a3113804f52e5f599ace7797c929ee03f12ab9374651a5636",
+      "archivedBytes": 529,
+      "archivedSha256": "24112f839c386f2a3113804f52e5f599ace7797c929ee03f12ab9374651a5636",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/AuthContext.tsx",
+      "originalSourceBytes": 15816,
+      "originalSourceSha256": "f51d9be6ed7a1984046a741cebd0d222a35708b05fefad43698efa81c9132c1b",
+      "archivedBytes": 15816,
+      "archivedSha256": "f51d9be6ed7a1984046a741cebd0d222a35708b05fefad43698efa81c9132c1b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/authDestination.ts",
+      "originalSourceBytes": 543,
+      "originalSourceSha256": "0336cd24601d49cc53b576482cded6ceabf75031c12c9b6a8ccb8ead38938eaa",
+      "archivedBytes": 543,
+      "archivedSha256": "0336cd24601d49cc53b576482cded6ceabf75031c12c9b6a8ccb8ead38938eaa",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/CareContext.tsx",
+      "originalSourceBytes": 17408,
+      "originalSourceSha256": "9f3e4f21c79267c2fc8fb695e5ece5d31c193594a1ee61e6b38297061b381c39",
+      "archivedBytes": 17408,
+      "archivedSha256": "9f3e4f21c79267c2fc8fb695e5ece5d31c193594a1ee61e6b38297061b381c39",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/carePersistence.ts",
+      "originalSourceBytes": 694,
+      "originalSourceSha256": "1e9c559e755050b9170993a977cb92ebfb4e75a9969ddff2802260b7f6b362a5",
+      "archivedBytes": 694,
+      "archivedSha256": "1e9c559e755050b9170993a977cb92ebfb4e75a9969ddff2802260b7f6b362a5",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/completeFacebookLogin.ts",
+      "originalSourceBytes": 1228,
+      "originalSourceSha256": "39357b5e6727db387cfcb2a814e4c3ac24e61a0510aa02f8afc5497b6e2b41bb",
+      "archivedBytes": 1228,
+      "archivedSha256": "39357b5e6727db387cfcb2a814e4c3ac24e61a0510aa02f8afc5497b6e2b41bb",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/AccountMemoryCard.tsx",
+      "originalSourceBytes": 3508,
+      "originalSourceSha256": "07fe70b023b50fd80330e5f9a559d7cce03d5efdb56ab3dfc04ec64639bb7460",
+      "archivedBytes": 3508,
+      "archivedSha256": "07fe70b023b50fd80330e5f9a559d7cce03d5efdb56ab3dfc04ec64639bb7460",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/AppearanceSettings.tsx",
+      "originalSourceBytes": 2599,
+      "originalSourceSha256": "fd89fba94a7746d91378bc32b2ad542416eaf7773644a5b7e6e2c3653c963725",
+      "archivedBytes": 2599,
+      "archivedSha256": "fd89fba94a7746d91378bc32b2ad542416eaf7773644a5b7e6e2c3653c963725",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/BrandHeader.tsx",
+      "originalSourceBytes": 2012,
+      "originalSourceSha256": "9ff1f2000c96af16ea7dbd73c165f3e1e571bcff2568923310f6961a38414f5c",
+      "archivedBytes": 2012,
+      "archivedSha256": "9ff1f2000c96af16ea7dbd73c165f3e1e571bcff2568923310f6961a38414f5c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/forms.tsx",
+      "originalSourceBytes": 2857,
+      "originalSourceSha256": "d9a1a5ddcd63e76cb9e33c9dfd940cb62faa021c308ff824b5ea5df0e1232686",
+      "archivedBytes": 2857,
+      "archivedSha256": "d9a1a5ddcd63e76cb9e33c9dfd940cb62faa021c308ff824b5ea5df0e1232686",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/KeepDemoProfile.tsx",
+      "originalSourceBytes": 4189,
+      "originalSourceSha256": "e2041df90ea8ab423f8b52b4baf160aa280213630f0391f2d3b28b37a71d98ce",
+      "archivedBytes": 4189,
+      "archivedSha256": "e2041df90ea8ab423f8b52b4baf160aa280213630f0391f2d3b28b37a71d98ce",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/MarketplaceDiscovery.tsx",
+      "originalSourceBytes": 5516,
+      "originalSourceSha256": "792a8c1d039cf6d943a5de110cc4120174d157c29d321ef72e056fe7f53ea191",
+      "archivedBytes": 5516,
+      "archivedSha256": "792a8c1d039cf6d943a5de110cc4120174d157c29d321ef72e056fe7f53ea191",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/MuseActionCard.tsx",
+      "originalSourceBytes": 3737,
+      "originalSourceSha256": "5c17b83d00772213f0fb7d3db5dd51842159bf601efd94257cdec1a40df2bf88",
+      "archivedBytes": 3737,
+      "archivedSha256": "5c17b83d00772213f0fb7d3db5dd51842159bf601efd94257cdec1a40df2bf88",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/MuseDog.tsx",
+      "originalSourceBytes": 3452,
+      "originalSourceSha256": "91950fada2eac626a3bb52dd9c86fe92667a07ed4c775ccc10f807e082a247b8",
+      "archivedBytes": 3452,
+      "archivedSha256": "91950fada2eac626a3bb52dd9c86fe92667a07ed4c775ccc10f807e082a247b8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/MuseJourneyGuide.tsx",
+      "originalSourceBytes": 6807,
+      "originalSourceSha256": "11aad67e0780f2885a7eeda25e80fc682b0323f03aa4b8ac1525f5a3eb467d86",
+      "archivedBytes": 6807,
+      "archivedSha256": "11aad67e0780f2885a7eeda25e80fc682b0323f03aa4b8ac1525f5a3eb467d86",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/MuseMemory.tsx",
+      "originalSourceBytes": 10848,
+      "originalSourceSha256": "5f6752528ce73082e368c88d26afbe60c7476bc2f0c939e6f88fc3b996605c10",
+      "archivedBytes": 10848,
+      "archivedSha256": "5f6752528ce73082e368c88d26afbe60c7476bc2f0c939e6f88fc3b996605c10",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/OnboardingMuseConnection.tsx",
+      "originalSourceBytes": 6166,
+      "originalSourceSha256": "0d0e5da3153309f569e93cd87a4d13c81c98a8f430703e1a3343ad2229d74f74",
+      "archivedBytes": 6166,
+      "archivedSha256": "0d0e5da3153309f569e93cd87a4d13c81c98a8f430703e1a3343ad2229d74f74",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/PetMuseAvatar.tsx",
+      "originalSourceBytes": 1409,
+      "originalSourceSha256": "c5c2a42e7dfdd96538b6d9bb1a6f7569fd706d344895d44f4f972bb898925ce0",
+      "archivedBytes": 1409,
+      "archivedSha256": "c5c2a42e7dfdd96538b6d9bb1a6f7569fd706d344895d44f4f972bb898925ce0",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/PetNotificationSettings.tsx",
+      "originalSourceBytes": 6532,
+      "originalSourceSha256": "0845bc90b39b20f7772b5622f23f5db2f9967cd67f42fa0f242733323127c224",
+      "archivedBytes": 6532,
+      "archivedSha256": "0845bc90b39b20f7772b5622f23f5db2f9967cd67f42fa0f242733323127c224",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/ProductVisual.tsx",
+      "originalSourceBytes": 1885,
+      "originalSourceSha256": "52f514596b0e43ca63d27d3a3c87abd41cd3f47fcd7dd57824730952133d88ce",
+      "archivedBytes": 1885,
+      "archivedSha256": "52f514596b0e43ca63d27d3a3c87abd41cd3f47fcd7dd57824730952133d88ce",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/TrainerFinder.tsx",
+      "originalSourceBytes": 12378,
+      "originalSourceSha256": "dd741568b9e52c906ccf6b2e29d5f524e3ee39282ddc268c01f178e1649b1896",
+      "archivedBytes": 12378,
+      "archivedSha256": "dd741568b9e52c906ccf6b2e29d5f524e3ee39282ddc268c01f178e1649b1896",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/ui.tsx",
+      "originalSourceBytes": 5518,
+      "originalSourceSha256": "bbd8ae542bcb60c24681dc1ba7e2cf37b9b64df05512a7be3b18662a6f35cd32",
+      "archivedBytes": 5518,
+      "archivedSha256": "bbd8ae542bcb60c24681dc1ba7e2cf37b9b64df05512a7be3b18662a6f35cd32",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/components/WhatsAppSettings.tsx",
+      "originalSourceBytes": 19594,
+      "originalSourceSha256": "65f165adf8d17a992c936e6d3b98dbe3b799c6b55044ba221d9878696789e372",
+      "archivedBytes": 19594,
+      "archivedSha256": "65f165adf8d17a992c936e6d3b98dbe3b799c6b55044ba221d9878696789e372",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/data.ts",
+      "originalSourceBytes": 1064,
+      "originalSourceSha256": "aa91960543f58bfea1b0ae9b4b510f66acec80ad2aca4c04c618e81e727c9dc3",
+      "archivedBytes": 1064,
+      "archivedSha256": "aa91960543f58bfea1b0ae9b4b510f66acec80ad2aca4c04c618e81e727c9dc3",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/demoMode.ts",
+      "originalSourceBytes": 168,
+      "originalSourceSha256": "626e156f58618f68d98b4f7a78adc23bdf1b4946db3a69114a925bac71d435ba",
+      "archivedBytes": 168,
+      "archivedSha256": "626e156f58618f68d98b4f7a78adc23bdf1b4946db3a69114a925bac71d435ba",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/demoProfileHandoff.ts",
+      "originalSourceBytes": 15905,
+      "originalSourceSha256": "aa49fe762c199722c2cf4a1cc33b2f462a55f69b14be674a33607121ef2d1a42",
+      "archivedBytes": 15905,
+      "archivedSha256": "aa49fe762c199722c2cf4a1cc33b2f462a55f69b14be674a33607121ef2d1a42",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/facebookPhotos.ts",
+      "originalSourceBytes": 5715,
+      "originalSourceSha256": "69f7724969ed1a6fa29ea740c3d5b8268c3dbbf38626f50d14c222d2f264cbc2",
+      "archivedBytes": 5715,
+      "archivedSha256": "69f7724969ed1a6fa29ea740c3d5b8268c3dbbf38626f50d14c222d2f264cbc2",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/marketplace.ts",
+      "originalSourceBytes": 2004,
+      "originalSourceSha256": "ad89c0cf1a6b2a256d9ee04e411191e95f8186d6b6071898fd23f023a44919c8",
+      "archivedBytes": 2004,
+      "archivedSha256": "ad89c0cf1a6b2a256d9ee04e411191e95f8186d6b6071898fd23f023a44919c8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/muse.ts",
+      "originalSourceBytes": 17148,
+      "originalSourceSha256": "d0bf546ec4e875e9fd9fc919816193fadffd072024777dbacb1eadf2c6e07c51",
+      "archivedBytes": 17148,
+      "archivedSha256": "d0bf546ec4e875e9fd9fc919816193fadffd072024777dbacb1eadf2c6e07c51",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/museActions.ts",
+      "originalSourceBytes": 3993,
+      "originalSourceSha256": "829798e48c7f13a41e5358825146045a60f2a686b4581d108d767176183366d4",
+      "archivedBytes": 3993,
+      "archivedSha256": "829798e48c7f13a41e5358825146045a60f2a686b4581d108d767176183366d4",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/museConversation.ts",
+      "originalSourceBytes": 5340,
+      "originalSourceSha256": "443a1ce22881d91387c5deb7af881ab4bb27a97a8d4df15a48a3944f2d5144fc",
+      "archivedBytes": 5340,
+      "archivedSha256": "443a1ce22881d91387c5deb7af881ab4bb27a97a8d4df15a48a3944f2d5144fc",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/museGuide.ts",
+      "originalSourceBytes": 1651,
+      "originalSourceSha256": "f935ca6cbca37aff512a436e7061ba7d91eab4b32fc2c95da846610b928bd190",
+      "archivedBytes": 1651,
+      "archivedSha256": "f935ca6cbca37aff512a436e7061ba7d91eab4b32fc2c95da846610b928bd190",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/museMemoryData.ts",
+      "originalSourceBytes": 1365,
+      "originalSourceSha256": "5cce106a035be6dc93d359b1ce3fbec5cc8a55e783bb9946681d0714e386cc3c",
+      "archivedBytes": 1365,
+      "archivedSha256": "5cce106a035be6dc93d359b1ce3fbec5cc8a55e783bb9946681d0714e386cc3c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/notificationData.ts",
+      "originalSourceBytes": 754,
+      "originalSourceSha256": "757de2a139d45c65e2858b8ff77862622f112bba6e4bcd179fdbb0e5f1a1a56a",
+      "archivedBytes": 754,
+      "archivedSha256": "757de2a139d45c65e2858b8ff77862622f112bba6e4bcd179fdbb0e5f1a1a56a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/notificationSync.ts",
+      "originalSourceBytes": 2235,
+      "originalSourceSha256": "4bc73a391f49878260ecca7b9c52534f107651de86e4880ded14f06f7a5e3620",
+      "archivedBytes": 2235,
+      "archivedSha256": "4bc73a391f49878260ecca7b9c52534f107651de86e4880ded14f06f7a5e3620",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/onboardingConnection.ts",
+      "originalSourceBytes": 2992,
+      "originalSourceSha256": "31571b3a6be304ee356e85dca757e2c361170fd2eea592908e9aeee579793ea2",
+      "archivedBytes": 2992,
+      "archivedSha256": "31571b3a6be304ee356e85dca757e2c361170fd2eea592908e9aeee579793ea2",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/ownerData.ts",
+      "originalSourceBytes": 2521,
+      "originalSourceSha256": "20318e72c6a85a941b73f1a1426f8ebf8917e80f550acf8f10140ec2980e7ba2",
+      "archivedBytes": 2521,
+      "archivedSha256": "20318e72c6a85a941b73f1a1426f8ebf8917e80f550acf8f10140ec2980e7ba2",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/petAvatarApi.ts",
+      "originalSourceBytes": 2284,
+      "originalSourceSha256": "434aa72510dc0f3251b191f8269ee7e46202f81dc67a3115c79a3e1092dd9f64",
+      "archivedBytes": 2284,
+      "archivedSha256": "434aa72510dc0f3251b191f8269ee7e46202f81dc67a3115c79a3e1092dd9f64",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/petAvatarData.ts",
+      "originalSourceBytes": 680,
+      "originalSourceSha256": "4f249c65166188006badd80dca75f417d72355aa7e99a077f43bfe245341c994",
+      "archivedBytes": 680,
+      "archivedSha256": "4f249c65166188006badd80dca75f417d72355aa7e99a077f43bfe245341c994",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/PetNotificationContext.tsx",
+      "originalSourceBytes": 8612,
+      "originalSourceSha256": "633adab90dcaabf41b0556ada767f5b09276700c966bb2a3ffa1c227e25be8fe",
+      "archivedBytes": 8612,
+      "archivedSha256": "633adab90dcaabf41b0556ada767f5b09276700c966bb2a3ffa1c227e25be8fe",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/petNotifications.native.ts",
+      "originalSourceBytes": 9692,
+      "originalSourceSha256": "03db5f0067c44ac37272bd0a4efaf1ae62c44048cab8c39cbbb79e8938dcfa58",
+      "archivedBytes": 9692,
+      "archivedSha256": "03db5f0067c44ac37272bd0a4efaf1ae62c44048cab8c39cbbb79e8938dcfa58",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/petNotifications.ts",
+      "originalSourceBytes": 134,
+      "originalSourceSha256": "6199c98d3c49a3c813b4888d1ff04183b0c3f8e3c4fccaf6dd89699de5bd66fc",
+      "archivedBytes": 134,
+      "archivedSha256": "6199c98d3c49a3c813b4888d1ff04183b0c3f8e3c4fccaf6dd89699de5bd66fc",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/petNotifications.web.ts",
+      "originalSourceBytes": 1154,
+      "originalSourceSha256": "1803de492ec21d0f32e3283e3db56be71e246a7e2f4f9cd97693d91496381f22",
+      "archivedBytes": 1154,
+      "archivedSha256": "1803de492ec21d0f32e3283e3db56be71e246a7e2f4f9cd97693d91496381f22",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/petPhoto.ts",
+      "originalSourceBytes": 4198,
+      "originalSourceSha256": "5dcb0a1e77acba0c0ca5fec10b2c1e04272f44a5786fcbd4492e545080b37b1b",
+      "archivedBytes": 4198,
+      "archivedSha256": "5dcb0a1e77acba0c0ca5fec10b2c1e04272f44a5786fcbd4492e545080b37b1b",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/screens/CareScreen.tsx",
+      "originalSourceBytes": 13623,
+      "originalSourceSha256": "a44f9b9364b68da4f45a4848f8c585c4aa491c72f75974760451500afaf51aba",
+      "archivedBytes": 13623,
+      "archivedSha256": "a44f9b9364b68da4f45a4848f8c585c4aa491c72f75974760451500afaf51aba",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/screens/MuseScreen.tsx",
+      "originalSourceBytes": 18425,
+      "originalSourceSha256": "9636436a0d5f04e83d12c0543901cc5886df92caf71d120ced88265f9774c851",
+      "archivedBytes": 18425,
+      "archivedSha256": "9636436a0d5f04e83d12c0543901cc5886df92caf71d120ced88265f9774c851",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/screens/OnboardingScreen.tsx",
+      "originalSourceBytes": 32895,
+      "originalSourceSha256": "89e5f817ed9b5a76a986fefe02a4413ee2ec98f6fbab920887b8701512aa7fe5",
+      "archivedBytes": 32895,
+      "archivedSha256": "89e5f817ed9b5a76a986fefe02a4413ee2ec98f6fbab920887b8701512aa7fe5",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/screens/RewardsScreen.tsx",
+      "originalSourceBytes": 6242,
+      "originalSourceSha256": "61a1baec2080d233945497aa883384c02347941226a35421d5c2222c3c5e440e",
+      "archivedBytes": 6242,
+      "archivedSha256": "61a1baec2080d233945497aa883384c02347941226a35421d5c2222c3c5e440e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/screens/ShopScreen.tsx",
+      "originalSourceBytes": 5042,
+      "originalSourceSha256": "15c88cad5c34b2d217be799ff304c2377a21ebfeed1598c3aff554c467ef6eb5",
+      "archivedBytes": 5042,
+      "archivedSha256": "15c88cad5c34b2d217be799ff304c2377a21ebfeed1598c3aff554c467ef6eb5",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowData.ts",
+      "originalSourceBytes": 5419,
+      "originalSourceSha256": "0c522c07d0e89e7aeba022f68974496369a884533b73bfb6d3609fa44cfa8342",
+      "archivedBytes": 5419,
+      "archivedSha256": "0c522c07d0e89e7aeba022f68974496369a884533b73bfb6d3609fa44cfa8342",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowExport.ts",
+      "originalSourceBytes": 1067,
+      "originalSourceSha256": "d4aa4f8451005095ab609b5cb33313bfb43752be9991ddafb929ae3a5bca7bc6",
+      "archivedBytes": 1067,
+      "archivedSha256": "d4aa4f8451005095ab609b5cb33313bfb43752be9991ddafb929ae3a5bca7bc6",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowExport.web.ts",
+      "originalSourceBytes": 17368,
+      "originalSourceSha256": "057bad22c3a46511e49a81819bf0980c86c46dfd5a897fa8d0a1be855145eff8",
+      "archivedBytes": 17368,
+      "archivedSha256": "057bad22c3a46511e49a81819bf0980c86c46dfd5a897fa8d0a1be855145eff8",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowIntent.ts",
+      "originalSourceBytes": 944,
+      "originalSourceSha256": "bb46869d37eb6c160e5fc3e91de3aa06478126b087aeb1b418fcf08b44515426",
+      "archivedBytes": 944,
+      "archivedSha256": "bb46869d37eb6c160e5fc3e91de3aa06478126b087aeb1b418fcf08b44515426",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowMusic.ts",
+      "originalSourceBytes": 517,
+      "originalSourceSha256": "e58296b6f831d45424fcd144f775bb01201eee291b00086ac4e40a4da47b5585",
+      "archivedBytes": 517,
+      "archivedSha256": "e58296b6f831d45424fcd144f775bb01201eee291b00086ac4e40a4da47b5585",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowPhotos.ts",
+      "originalSourceBytes": 3611,
+      "originalSourceSha256": "55b82c38e1cf994f4192d27740d613f2bbdb4201b48543cb42f3a288aa6b76d1",
+      "archivedBytes": 3611,
+      "archivedSha256": "55b82c38e1cf994f4192d27740d613f2bbdb4201b48543cb42f3a288aa6b76d1",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/slideshowSamples.ts",
+      "originalSourceBytes": 2773,
+      "originalSourceSha256": "ea5ecf0dfa508bd76cc569b0abc550eb2e05badd3fbb54f35a281a66153639d2",
+      "archivedBytes": 2773,
+      "archivedSha256": "ea5ecf0dfa508bd76cc569b0abc550eb2e05badd3fbb54f35a281a66153639d2",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/socialData.ts",
+      "originalSourceBytes": 7266,
+      "originalSourceSha256": "5eee4270dd92d546786abb4b454ea353b59f90088dc0c59a13ee92b7a8b520e1",
+      "archivedBytes": 7266,
+      "archivedSha256": "5eee4270dd92d546786abb4b454ea353b59f90088dc0c59a13ee92b7a8b520e1",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/theme.ts",
+      "originalSourceBytes": 1553,
+      "originalSourceSha256": "3c3ab1e7ca1a20ed80bee05222ee5ae70b88986e37921e3c45de9fa085bca262",
+      "archivedBytes": 1553,
+      "archivedSha256": "3c3ab1e7ca1a20ed80bee05222ee5ae70b88986e37921e3c45de9fa085bca262",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/ThemeContext.tsx",
+      "originalSourceBytes": 2672,
+      "originalSourceSha256": "70c89452dbb0cfa7c8c0d6d39e28223d565d6fdd0e0b7f157cad7659d4bdf109",
+      "archivedBytes": 2672,
+      "archivedSha256": "70c89452dbb0cfa7c8c0d6d39e28223d565d6fdd0e0b7f157cad7659d4bdf109",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/trainerFinder.ts",
+      "originalSourceBytes": 3368,
+      "originalSourceSha256": "37b1125a63e32869aa20255b1972ed33a6716d22391d8e5e4cb8ae79d53d7666",
+      "archivedBytes": 3368,
+      "archivedSha256": "37b1125a63e32869aa20255b1972ed33a6716d22391d8e5e4cb8ae79d53d7666",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/types.ts",
+      "originalSourceBytes": 2210,
+      "originalSourceSha256": "d0f4a3e2e165232a064ffb80099047ec014d80469c1f190afcb8666e980061aa",
+      "archivedBytes": 2210,
+      "archivedSha256": "d0f4a3e2e165232a064ffb80099047ec014d80469c1f190afcb8666e980061aa",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/usePetAvatar.ts",
+      "originalSourceBytes": 1308,
+      "originalSourceSha256": "15d899299115cf3457251ffa6c50bcec24312298db0f25d9c23eb975292d8968",
+      "archivedBytes": 1308,
+      "archivedSha256": "15d899299115cf3457251ffa6c50bcec24312298db0f25d9c23eb975292d8968",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/src/whatsappClient.ts",
+      "originalSourceBytes": 12812,
+      "originalSourceSha256": "576710d4180d5da6b8c73f4dee78d354f94c6d2296f4be0e0db9087c8542147e",
+      "archivedBytes": 12812,
+      "archivedSha256": "576710d4180d5da6b8c73f4dee78d354f94c6d2296f4be0e0db9087c8542147e",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/Start-MetaPet.cmd",
+      "originalSourceBytes": 814,
+      "originalSourceSha256": "5349c4acd74f8b326b52512152dcfec179d592e14c1d8db707dd084bcd142000",
+      "archivedBytes": 814,
+      "archivedSha256": "5349c4acd74f8b326b52512152dcfec179d592e14c1d8db707dd084bcd142000",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/Start-Muse.cmd",
+      "originalSourceBytes": 637,
+      "originalSourceSha256": "54ab5a669fa959dff0bc11451f5e87988eabed9aee5dff4f6a053e176ff2611c",
+      "archivedBytes": 637,
+      "archivedSha256": "54ab5a669fa959dff0bc11451f5e87988eabed9aee5dff4f6a053e176ff2611c",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tests/account-memory-return.test.mjs",
+      "originalSourceBytes": 4615,
+      "originalSourceSha256": "17abf71208297e608e6da018e61ab48a30b9c0aed6e8f79d3a6d675cecd29dc7",
+      "archivedBytes": 4615,
+      "archivedSha256": "17abf71208297e608e6da018e61ab48a30b9c0aed6e8f79d3a6d675cecd29dc7",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tests/demo-profile-handoff.test.mjs",
+      "originalSourceBytes": 11906,
+      "originalSourceSha256": "10b89fc82b2f0f883fcbd6c24ac1ebb7957b21920658807ef79ebdb90904c97a",
+      "archivedBytes": 11906,
+      "archivedSha256": "10b89fc82b2f0f883fcbd6c24ac1ebb7957b21920658807ef79ebdb90904c97a",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tests/muse-guide.test.mjs",
+      "originalSourceBytes": 2541,
+      "originalSourceSha256": "ec63c1b8c3be9446a6b3f6f7dabc3e8400169295e97a7c1cf24065006bd5db62",
+      "archivedBytes": 2541,
+      "archivedSha256": "ec63c1b8c3be9446a6b3f6f7dabc3e8400169295e97a7c1cf24065006bd5db62",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tests/muse-memory-data.test.mjs",
+      "originalSourceBytes": 2193,
+      "originalSourceSha256": "d1b24530990d7676e85f96bd7a642e62871136ca4a889d891d0cd1afd0ad1daf",
+      "archivedBytes": 2193,
+      "archivedSha256": "d1b24530990d7676e85f96bd7a642e62871136ca4a889d891d0cd1afd0ad1daf",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tests/slideshow-data.test.mjs",
+      "originalSourceBytes": 9746,
+      "originalSourceSha256": "abe5cb9e073350657bf2540098fd37a84f3b8d247136df5e3e7205535cf69219",
+      "archivedBytes": 9746,
+      "archivedSha256": "abe5cb9e073350657bf2540098fd37a84f3b8d247136df5e3e7205535cf69219",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tests/trainer-finder.test.mjs",
+      "originalSourceBytes": 3458,
+      "originalSourceSha256": "b0037c5a217e7446d469bcacb27c099843c69be640a936717da27311ca31b474",
+      "archivedBytes": 3458,
+      "archivedSha256": "b0037c5a217e7446d469bcacb27c099843c69be640a936717da27311ca31b474",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/tsconfig.json",
+      "originalSourceBytes": 430,
+      "originalSourceSha256": "9c3dd1e1a22d33bb09c547a7b8bc8ec03087a0994c30206156e065fd7f5d01bb",
+      "archivedBytes": 430,
+      "archivedSha256": "9c3dd1e1a22d33bb09c547a7b8bc8ec03087a0994c30206156e065fd7f5d01bb",
+      "transformations": []
+    },
+    {
+      "file": "apps/meta-pet/verification.json",
+      "originalSourceBytes": 59861,
+      "originalSourceSha256": "6855a4bf5e04916ba3c80696a89e4f19323e35a499c9fca8bcc40d03d0a84b6d",
+      "archivedBytes": 59949,
+      "archivedSha256": "41768bfdc83c0cdfefa8ee17f124cf8ac3b1ea7899c433014166875776252b77",
+      "transformations": [
+        "owner-pet-reference-generalized-in-shareable-documentation"
+      ]
+    },
+    {
+      "file": "docs/DEMO-FLOW.md",
+      "originalSourceBytes": 6220,
+      "originalSourceSha256": "726450ddb4d6bad9139bac29afc01f1395b782dc8305ad1b5539c3cac417f589",
+      "archivedBytes": 6220,
+      "archivedSha256": "726450ddb4d6bad9139bac29afc01f1395b782dc8305ad1b5539c3cac417f589",
+      "transformations": []
+    },
+    {
+      "file": "docs/HACKATHON-UPDATES.md",
+      "originalSourceBytes": 18145,
+      "originalSourceSha256": "fe649296cc04b551adfac161bca522a5e6ad3b53ec7d0c42a79042dbb78ff491",
+      "archivedBytes": 18145,
+      "archivedSha256": "fe649296cc04b551adfac161bca522a5e6ad3b53ec7d0c42a79042dbb78ff491",
+      "transformations": []
+    },
+    {
+      "file": "docs/history/DEMO-FLOW-before-2026-11-03.md",
+      "originalSourceBytes": 3688,
+      "originalSourceSha256": "c135ff9f04f30ddbfab86c6bc92c1e046cdf5c03dd66e3e5ea3a12974cec26c6",
+      "archivedBytes": 3688,
+      "archivedSha256": "c135ff9f04f30ddbfab86c6bc92c1e046cdf5c03dd66e3e5ea3a12974cec26c6",
+      "transformations": []
+    },
+    {
+      "file": "docs/history/PROJECT-BRIEF-before-2026-11-03.md",
+      "originalSourceBytes": 4557,
+      "originalSourceSha256": "2fa21cbe657937f9be957dea2888bf4d1356961076613226a5fb82a5f3a974d6",
+      "archivedBytes": 4557,
+      "archivedSha256": "2fa21cbe657937f9be957dea2888bf4d1356961076613226a5fb82a5f3a974d6",
+      "transformations": []
+    },
+    {
+      "file": "docs/history/WORKSPACE-README-before-2026-11-03.md",
+      "originalSourceBytes": 2066,
+      "originalSourceSha256": "7622b16c65be2d7e322017970e1c1d52b588bb60e8827e756b73df79fde70357",
+      "archivedBytes": 2066,
+      "archivedSha256": "7622b16c65be2d7e322017970e1c1d52b588bb60e8827e756b73df79fde70357",
+      "transformations": []
+    },
+    {
+      "file": "docs/MUSE-TEAM.md",
+      "originalSourceBytes": 21308,
+      "originalSourceSha256": "3fbc911c71429e67582cc601b313a8ede90882fc98af75bd8f33338241c2fe2b",
+      "archivedBytes": 21308,
+      "archivedSha256": "3fbc911c71429e67582cc601b313a8ede90882fc98af75bd8f33338241c2fe2b",
+      "transformations": []
+    },
+    {
+      "file": "docs/NEXT-STEPS.md",
+      "originalSourceBytes": 17320,
+      "originalSourceSha256": "e9b3dce316e895f02886d335fa5085860d63dd667a5f33a063d1e83f1a22956a",
+      "archivedBytes": 17358,
+      "archivedSha256": "0ceb6cd8c5a9be2a0eca39b562a0a54697bef923af1606f5786d31722b168b90",
+      "transformations": [
+        "owner-pet-reference-generalized-in-shareable-documentation"
+      ]
+    },
+    {
+      "file": "docs/PROJECT-BRIEF.md",
+      "originalSourceBytes": 4940,
+      "originalSourceSha256": "2efdaca9e14c9d17646bf3e804efe45aad007115f8a999f9491b55dd3d18bfb5",
+      "archivedBytes": 4940,
+      "archivedSha256": "2efdaca9e14c9d17646bf3e804efe45aad007115f8a999f9491b55dd3d18bfb5",
+      "transformations": []
+    },
+    {
+      "file": "docs/SLIDESHOW-FEATURE-2026-11-04.md",
+      "originalSourceBytes": 3709,
+      "originalSourceSha256": "928064f8f2fada4498f81b5d4e1058ec39b017339f006caf5fa0855bc18ea25e",
+      "archivedBytes": 3709,
+      "archivedSha256": "928064f8f2fada4498f81b5d4e1058ec39b017339f006caf5fa0855bc18ea25e",
+      "transformations": []
+    },
+    {
+      "file": "docs/WORKSPACE-NOTES.md",
+      "originalSourceBytes": 2378,
+      "originalSourceSha256": "50fadecb56e3f0e9730f03d87a90ac3c646adfa06c09d4626c5c3051ef10382a",
+      "archivedBytes": 2378,
+      "archivedSha256": "50fadecb56e3f0e9730f03d87a90ac3c646adfa06c09d4626c5c3051ef10382a",
+      "transformations": []
+    },
+    {
+      "file": "LICENSE",
+      "originalSourceBytes": 1078,
+      "originalSourceSha256": "b6f03cec78860c6a7df466472271959f7188479fcacf3d7e6f993f278afd514b",
+      "archivedBytes": 1078,
+      "archivedSha256": "b6f03cec78860c6a7df466472271959f7188479fcacf3d7e6f993f278afd514b",
+      "transformations": [],
+      "sourceOrigin": "approved root licensing overlay; canonical files remain preserved until publication verification"
+    },
+    {
+      "file": "NOTICE.md",
+      "originalSourceBytes": 3383,
+      "originalSourceSha256": "bdcb1df086fa335323928b8b292f07a4cf67eafbedbf9a646a247d0a9eae213e",
+      "archivedBytes": 3383,
+      "archivedSha256": "bdcb1df086fa335323928b8b292f07a4cf67eafbedbf9a646a247d0a9eae213e",
+      "transformations": [],
+      "sourceOrigin": "approved root licensing overlay; canonical files remain preserved until publication verification"
+    },
+    {
+      "file": "README.md",
+      "originalSourceBytes": 4968,
+      "originalSourceSha256": "008fd1dfb6ba157efeb0810237c870985c5e957ca70f847a63b3efd3a47e1a90",
+      "archivedBytes": 4968,
+      "archivedSha256": "008fd1dfb6ba157efeb0810237c870985c5e957ca70f847a63b3efd3a47e1a90",
+      "transformations": []
+    },
+    {
+      "file": "Start-MetaPet.cmd",
+      "originalSourceBytes": 63,
+      "originalSourceSha256": "3729ff294560470f818bc3891e70d27e83a6b40d885a23172f3f6c6baaf4be37",
+      "archivedBytes": 63,
+      "archivedSha256": "3729ff294560470f818bc3891e70d27e83a6b40d885a23172f3f6c6baaf4be37",
+      "transformations": []
+    },
+    {
+      "file": "Start-Muse.cmd",
+      "originalSourceBytes": 60,
+      "originalSourceSha256": "aa5d7d7de4099ff6bef1b104db6719c7fac802f346d377913a4e2915631a72d3",
+      "archivedBytes": 60,
+      "archivedSha256": "aa5d7d7de4099ff6bef1b104db6719c7fac802f346d377913a4e2915631a72d3",
+      "transformations": []
+    },
+    {
+      "file": "submissions/DEMO-REHEARSAL.md",
+      "originalSourceBytes": 9433,
+      "originalSourceSha256": "f0dffc614e0e87d1bf8aa1c36d24df15edeb98187de2c4634c8723ea0e8b758e",
+      "archivedBytes": 9433,
+      "archivedSha256": "f0dffc614e0e87d1bf8aa1c36d24df15edeb98187de2c4634c8723ea0e8b758e",
+      "transformations": []
+    },
+    {
+      "file": "submissions/FINALIZATION-BLOCKERS.md",
+      "originalSourceBytes": 7711,
+      "originalSourceSha256": "b377a559ffd11e4a7694f4c7778a9f29f172f80e4aedab09a5d92204ff34e5ae",
+      "archivedBytes": 7711,
+      "archivedSha256": "b377a559ffd11e4a7694f4c7778a9f29f172f80e4aedab09a5d92204ff34e5ae",
+      "transformations": []
+    },
+    {
+      "file": "submissions/FORM-MAPPING.md",
+      "originalSourceBytes": 10459,
+      "originalSourceSha256": "7c8499890aafec8a3d9299144ff082d0d82794697cf64aff5b5727ba77da4a93",
+      "archivedBytes": 10459,
+      "archivedSha256": "7c8499890aafec8a3d9299144ff082d0d82794697cf64aff5b5727ba77da4a93",
+      "transformations": []
+    },
+    {
+      "file": "submissions/README.md",
+      "originalSourceBytes": 8431,
+      "originalSourceSha256": "2379696944dbda2aa17fab5cc9f0f94a2fdd6966c59d37c6f27a176c32e832a0",
+      "archivedBytes": 8431,
+      "archivedSha256": "2379696944dbda2aa17fab5cc9f0f94a2fdd6966c59d37c6f27a176c32e832a0",
+      "transformations": []
+    },
+    {
+      "file": "submissions/REVIEWER-QUICKSTART.md",
+      "originalSourceBytes": 7411,
+      "originalSourceSha256": "c32fb260821ddf5796383778ca37d326f09ebfbdb88367533a7ab9a7ed931321",
+      "archivedBytes": 7411,
+      "archivedSha256": "c32fb260821ddf5796383778ca37d326f09ebfbdb88367533a7ab9a7ed931321",
+      "transformations": []
+    },
+    {
+      "file": "submissions/SUBMISSION-COPY.md",
+      "originalSourceBytes": 10445,
+      "originalSourceSha256": "ce7881541209084576c5c8ea87f5f716126cf97b24190ecf8277bab7fc2a36e4",
+      "archivedBytes": 10445,
+      "archivedSha256": "ce7881541209084576c5c8ea87f5f716126cf97b24190ecf8277bab7fc2a36e4",
+      "transformations": []
+    }
+  ]
+}

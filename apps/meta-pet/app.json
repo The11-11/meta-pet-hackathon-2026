@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Meta Pet",
+    "slug": "meta-pet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/muse-dog.png",
+    "scheme": "metapet",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.metapet.companion",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.metapet.companion",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/muse-dog.png",
+        "backgroundColor": "#EAF2FF"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Meta Pet uses your camera when you choose to take a pet photo for their custom avatar.",
+          "photosPermission": "Meta Pet lets you choose a pet photo to create their custom avatar.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "sounds": ["./assets/sounds/bark.wav", "./assets/sounds/meow_v2.wav"],
+          "color": "#0866FF"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

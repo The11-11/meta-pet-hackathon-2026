@@ -1,0 +1,1 @@
+Compare the supplied Meta Pet scope with supplied event themes, tooling requirements and deliverables. Keep Meta Pet as the app, Muse Pet as its companion and Petaverse as the ecosystem. Prefer a focused demonstrable owner benefit over an unsupported ecosystem pitch. Identify missing evidence and unclear deliverables without inventing rules or assuming a submission field exists.

@@ -1,0 +1,16 @@
+{
+  "title": "cat meow",
+  "author": "tuberatanka",
+  "sourcePage": "https://freesound.org/people/tuberatanka/sounds/110011/",
+  "downloadUrl": "https://cdn.freesound.org/previews/110/110011_1537422-hq.mp3",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "rawFile": "cat-110011-preview-raw.mp3",
+  "rawSha256": "2890268279c76f06dc0b7c2b59313becf63a152a1addcede5ee5161cee9eb45a",
+  "outputFile": "../meow_v2.wav",
+  "outputSha256": "d096fe4505011c8a6090e6617bdddc572c2a8e897289bcc4a0e01d8d81cc0480",
+  "processing": "Real cat recording, public HQ preview; trim source 0.16\u20131.36 seconds, unchanged pitch and speed. Miniaudio decode/resample to 22050 Hz mono; DC removal; 12ms raised-cosine edge fades; normalize peak to 0.68; add 60ms leading and 140ms trailing silence; PCM16.",
+  "durationSeconds": 1.4,
+  "peak": 0.67999267578125,
+  "mean": -3.262326135811467e-08
+}

@@ -1,0 +1,10 @@
+**/node_modules/
+**/.expo/
+**/dist/
+**/.eve/
+**/*.tsbuildinfo
+**/.env
+**/.env.*
+!**/.env.example
+**/backend/data/
+/backups/
